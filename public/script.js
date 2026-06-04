@@ -5,8 +5,69 @@ document.addEventListener('DOMContentLoaded', () => {
     const hanziEl = document.getElementById('tooltip-hanzi');
     const pinyinEl = document.getElementById('tooltip-pinyin');
     const englishEl = document.getElementById('tooltip-english');
+    const speakerEl = document.getElementById('tooltip-speaker');
 
     let currentActiveWord = null;
+
+    function getNumberedPinyin(pinyinWithMarks) {
+        const toneMap = {
+            'ā': ['a', '1'], 'á': ['a', '2'], 'ǎ': ['a', '3'], 'à': ['a', '4'],
+            'ō': ['o', '1'], 'ó': ['o', '2'], 'ǒ': ['o', '3'], 'ò': ['o', '4'],
+            'ē': ['e', '1'], 'é': ['e', '2'], 'ě': ['e', '3'], 'è': ['e', '4'],
+            'ī': ['i', '1'], 'í': ['i', '2'], 'ǐ': ['i', '3'], 'ì': ['i', '4'],
+            'ū': ['u', '1'], 'ú': ['u', '2'], 'ǔ': ['u', '3'], 'ù': ['u', '4'],
+            'ǖ': ['uu', '1'], 'ǘ': ['uu', '2'], 'ǚ': ['uu', '3'], 'ǜ': ['uu', '4']
+        };
+
+        return pinyinWithMarks.toLowerCase().split(/\s+/).map(syl => {
+            let tone = '5';
+            let base = syl;
+            
+            for (let char in toneMap) {
+                if (base.includes(char)) {
+                    base = base.replace(char, toneMap[char][0]);
+                    tone = toneMap[char][1];
+                    break;
+                }
+            }
+            
+            base = base.replace(/ü/g, 'uu');
+            
+            if (!/^[a-z]+$/.test(base)) {
+                 return null;
+            }
+            
+            return base + tone;
+        }).filter(s => s !== null);
+    }
+
+    function playPinyinAudio(pinyinStr) {
+        if (!pinyinStr) return;
+        const syllables = getNumberedPinyin(pinyinStr);
+        let i = 0;
+        
+        function playNext() {
+            if (i < syllables.length) {
+                let audio = new Audio(`../../audio/mp3/${syllables[i]}.mp3`);
+                audio.onended = playNext;
+                audio.play().catch(e => {
+                    console.log('Audio not found or blocked:', e);
+                    playNext();
+                });
+                i++;
+            }
+        }
+        playNext();
+    }
+
+    if (speakerEl) {
+        speakerEl.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (currentActiveWord) {
+                playPinyinAudio(currentActiveWord.getAttribute('data-pinyin'));
+            }
+        });
+    }
 
     document.querySelectorAll('.dict-word').forEach(word => {
         word.addEventListener('click', (e) => {
