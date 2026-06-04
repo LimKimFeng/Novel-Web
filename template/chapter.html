@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{CHAPTER_NAME}} - {{NOVEL_NAME}}</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="chapter-title" style="font-family: 'Noto Sans SC', sans-serif;">{{CHAPTER_NAME}}</h1>
+            <h3 style="color: #94a3b8; font-weight: 400; font-size: 1rem; margin-top: 0.5rem;"><a href="../index.html">{{NOVEL_NAME}}</a></h3>
+        </header>
+        
+        <div class="nav-links" style="margin-top: 0; margin-bottom: 3rem; border-top: none; padding-top: 0; border-bottom: 1px solid var(--border-color); padding-bottom: 1.5rem;">
+            {{PREV_LINK_HTML}}
+            <select class="chapter-select" onchange="window.location.href='../' + this.value + '/index.html'">
+                {{CHAPTER_OPTIONS}}
+            </select>
+            {{NEXT_LINK_HTML}}
+        </div>
+
+        <div class="chapter-content">
+            {{CHAPTER_CONTENT}}
+        </div>
+
+        <div class="nav-links">
+            {{PREV_LINK_HTML}}
+            <select class="chapter-select" onchange="window.location.href='../' + this.value + '/index.html'">
+                {{CHAPTER_OPTIONS}}
+            </select>
+            {{NEXT_LINK_HTML}}
+        </div>
+    </div>
+
+    <div id="dict-tooltip">
+        <div class="tooltip-hanzi" id="tooltip-hanzi">字</div>
+        <div class="tooltip-pinyin" id="tooltip-pinyin">zì</div>
+        <div class="tooltip-english" id="tooltip-english">definition</div>
+    </div>
+
+    <script src="../../script.js"></script>
+</body>
+</html>
