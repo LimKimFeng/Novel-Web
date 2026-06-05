@@ -127,7 +127,7 @@ async function buildSite(selectedNovels) {
 
         // TRANSLATION PIPELINE
         const rawFiles = fs.readdirSync(rawPath)
-            .filter(f => f.endsWith('.txt'))
+            .filter(f => f.endsWith('.txt') && f !== 'last_url.txt')
             .sort((a, b) => {
                 const aMatch = a.match(/\d+/);
                 const bMatch = b.match(/\d+/);

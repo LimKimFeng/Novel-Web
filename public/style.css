@@ -93,24 +93,24 @@ a:hover {
 }
 
 /* Chapter List Grid */
-.chapter-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-    gap: 0.75rem;
+.chapter-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
-.chapter-grid a {
+.chapter-list a {
     display: block;
-    padding: 0.75rem;
+    padding: 1rem;
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    text-align: center;
+    text-align: left;
     color: var(--text-color);
     transition: background 0.2s;
 }
 
-.chapter-grid a:hover {
+.chapter-list a:hover {
     background: #334155;
     text-decoration: none;
 }
