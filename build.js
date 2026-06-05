@@ -100,6 +100,9 @@ async function buildSite(selectedNovels) {
     fs.ensureDirSync(PUBLIC_DIR);
     fs.copySync(path.join(TEMPLATE_DIR, 'style.css'), path.join(PUBLIC_DIR, 'style.css'));
     fs.copySync(path.join(TEMPLATE_DIR, 'script.js'), path.join(PUBLIC_DIR, 'script.js'));
+    if (fs.existsSync(path.join(TEMPLATE_DIR, 'login.html'))) {
+        fs.copySync(path.join(TEMPLATE_DIR, 'login.html'), path.join(PUBLIC_DIR, 'login.html'));
+    }
 
     if (!fs.existsSync(NOVEL_DIR)) {
         console.log('Novel directory not found. Creating empty one.');
@@ -251,31 +254,51 @@ async function buildSite(selectedNovels) {
         return fs.statSync(path.join(NOVEL_DIR, file)).isDirectory();
     });
 
-    let novelListHtml = '';
-    if (allNovels.length === 0) {
-        novelListHtml = '<p>No novels available yet.</p>';
-    } else {
-        for (const novel of allNovels) {
-            let chaptersCount = 0;
-            const contentPath = path.join(NOVEL_DIR, novel, 'content');
-            if (fs.existsSync(contentPath)) {
-                chaptersCount = fs.readdirSync(contentPath).filter(f => f.endsWith('.txt')).length;
-            }
-            
-            novelListHtml += `
-                <a href="${novel}/index.html" class="novel-card">
-                    <img src="${novel}/cover.jpg" alt="${novel} Cover" onerror="this.src='style.css'; this.style.display='none'">
-                    <div class="novel-info">
-                        <h3>${novel}</h3>
-                        <span>${chaptersCount} chapters</span>
-                    </div>
-                </a>
-            `;
+    let publicNovelListHtml = '';
+    let adminNovelListHtml = '';
+
+    for (const novel of allNovels) {
+        let chaptersCount = 0;
+        const contentPath = path.join(NOVEL_DIR, novel, 'content');
+        if (fs.existsSync(contentPath)) {
+            chaptersCount = fs.readdirSync(contentPath).filter(f => f.endsWith('.txt')).length;
+        }
+        
+        let isAdmin = false;
+        const configPath = path.join(NOVEL_DIR, novel, 'config.json');
+        if (fs.existsSync(configPath)) {
+            isAdmin = fs.readJsonSync(configPath).admin || false;
+        }
+
+        const cardHtml = `
+            <a href="${novel}/index.html" class="novel-card">
+                <img src="${novel}/cover.jpg" alt="${novel} Cover" onerror="this.src='style.css'; this.style.display='none'">
+                <div class="novel-info">
+                    <h3>${novel}</h3>
+                    <span>${chaptersCount} chapters</span>
+                </div>
+            </a>
+        `;
+
+        if (isAdmin) {
+            adminNovelListHtml += cardHtml;
+        } else {
+            publicNovelListHtml += cardHtml;
         }
     }
 
-    let indexFinalHtml = tplIndex.replace(/{{NOVEL_LIST}}/g, novelListHtml);
+    if (!publicNovelListHtml) publicNovelListHtml = '<p>No public novels available yet.</p>';
+    if (!adminNovelListHtml) adminNovelListHtml = '<p>No hidden novels available yet.</p>';
+
+    let indexFinalHtml = tplIndex.replace(/{{NOVEL_LIST}}/g, publicNovelListHtml);
     fs.writeFileSync(path.join(PUBLIC_DIR, 'index.html'), indexFinalHtml);
+    
+    // Build admin index
+    if (fs.existsSync(path.join(TEMPLATE_DIR, 'admin-index.html'))) {
+        const tplAdminIndex = fs.readFileSync(path.join(TEMPLATE_DIR, 'admin-index.html'), 'utf-8');
+        let adminIndexFinalHtml = tplAdminIndex.replace(/{{NOVEL_LIST}}/g, adminNovelListHtml);
+        fs.writeFileSync(path.join(PUBLIC_DIR, 'admin-index.html'), adminIndexFinalHtml);
+    }
 
     console.log('\nBuild completed successfully!');
     
@@ -305,6 +328,18 @@ async function startInteractive() {
     if (novels.length === 0) {
         console.log("Belum ada project novel di dalam folder Novel/");
         process.exit(0);
+    }
+
+    if (process.argv.includes('--all')) {
+        console.log("\n=> Mode Auto-Update: Memproses SEMUA novel...");
+        for (const novel of novels) {
+            const configPath = path.join(NOVEL_DIR, novel, 'config.json');
+            if (!fs.existsSync(configPath)) {
+                fs.writeJsonSync(configPath, { admin: false });
+            }
+        }
+        await buildSite(novels);
+        return;
     }
 
     console.log("\n=== Pilih Project Novel untuk di-Translate & Build ===");
@@ -340,6 +375,28 @@ async function startInteractive() {
     rl.close();
     
     console.log(`\n=> Memulai proses translate & build untuk:\n - ${selectedNovels.join("\n - ")}\n`);
+    
+    // Prompt config for each novel if missing
+    for (const novel of selectedNovels) {
+        const configPath = path.join(NOVEL_DIR, novel, 'config.json');
+        if (!fs.existsSync(configPath)) {
+            console.log(`\n[!] Pengaturan untuk novel: ${novel}`);
+            let isAdmin = false;
+            while(true) {
+                const answer = await ask("Taruh di Admin Library (Hidden) atau Public? (1 = Admin, 2 = Public): ");
+                if (answer.trim() === '1') {
+                    isAdmin = true;
+                    break;
+                } else if (answer.trim() === '2') {
+                    isAdmin = false;
+                    break;
+                } else {
+                    console.log("Pilihan tidak valid, silakan masukkan 1 atau 2.");
+                }
+            }
+            fs.writeJsonSync(configPath, { admin: isAdmin });
+        }
+    }
     await buildSite(selectedNovels);
 }
 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandarin Reader - Admin Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .admin-banner {
+            background-color: #7f1d1d;
+            color: #fca5a5;
+            text-align: center;
+            padding: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="admin-banner">
+        ⚠️ ADMIN LIBRARY - CLASSIFIED CONTENT
+    </div>
+    <div class="container">
+        <header>
+            <h1>Admin Library</h1>
+            <p style="color: #94a3b8;">Restricted access novels.</p>
+        </header>
+        <div class="novel-grid">
+            {{NOVEL_LIST}}
+        </div>
+    </div>
+</body>
+</html>
