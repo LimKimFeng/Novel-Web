@@ -1,0 +1,1834 @@
+{
+  "第一章·序章": {
+    "pinyin": "dì yī zhāng · xù zhāng",
+    "english": "Chapter 1 · Prologue"
+  },
+  "圣日帝国": {
+    "pinyin": "shèng rì dì guó",
+    "english": "Holy Sun Empire"
+  },
+  "皇都": {
+    "pinyin": "huáng dū",
+    "english": "Imperial Capital"
+  },
+  "秘法符印": {
+    "pinyin": "mì fǎ fú yìn",
+    "english": "Secret Art Runes"
+  },
+  "古老结界": {
+    "pinyin": "gǔ lǎng jié jiè",
+    "english": "Ancient Barrier"
+  },
+  "光明教廷": {
+    "pinyin": "guāng míng jiào tíng",
+    "english": "Church of Light"
+  },
+  "教皇": {
+    "pinyin": "jiào huáng",
+    "english": "Pope"
+  },
+  "铁狱": {
+    "pinyin": "tiě yù",
+    "english": "Iron Prison"
+  },
+  "异端": {
+    "pinyin": "yì duān",
+    "english": "Heretic"
+  },
+  "魔鬼化身": {
+    "pinyin": "mó guǐ huà shēn",
+    "english": "Devil Incarnation"
+  },
+  "骑士": {
+    "pinyin": "qí shì",
+    "english": "Knight"
+  },
+  "苍穹": {
+    "pinyin": "cāng qióng",
+    "english": "Firmament"
+  },
+  "然而": {
+    "pinyin": "rán ér",
+    "english": "However"
+  },
+  "重获新生": {
+    "pinyin": "chóng huò xīn shēng",
+    "english": "Reborn"
+  },
+  "天空": {
+    "pinyin": "tiān kōng",
+    "english": "Sky"
+  },
+  "柔和光辉": {
+    "pinyin": "róu hé guāng huī",
+    "english": "Soft Radiance"
+  },
+  "啼鸣": {
+    "pinyin": "tí míng",
+    "english": "Cry"
+  },
+  "双翼": {
+    "pinyin": "shuāng yì",
+    "english": "Dual Wings"
+  },
+  "银辉": {
+    "pinyin": "yín huī",
+    "english": "Silver Glow"
+  },
+  "优雅天鹅": {
+    "pinyin": "yōu yuǎn tiān é",
+    "english": "Elegant Swan"
+  },
+  "俯冲": {
+    "pinyin": "fǔ chōng",
+    "english": "Dive"
+  },
+  "喙": {
+    "pinyin": "huì",
+    "english": "Beak"
+  },
+  "布囊": {
+    "pinyin": "bù náng",
+    "english": "Cloth Pouch"
+  },
+  "利爪": {
+    "pinyin": "lì zhǎo",
+    "english": "Claws"
+  },
+  "泥土": {
+    "pinyin": "ní tǔ",
+    "english": "Mud"
+  },
+  "怜惜": {
+    "pinyin": "lián xī",
+    "english": "Pity"
+  },
+  "新生儿的微小身影": {
+    "pinyin": "xīn shēng ér de wēi xiǎo shēn yǐng",
+    "english": "Tiny Figure of the Newborn"
+  },
+  "苍白": {
+    "pinyin": "cāng bái",
+    "english": "Pale"
+  },
+  "脸颊": {
+    "pinyin": "liǎn jiá",
+    "english": "Cheek"
+  },
+  "腾空而起": {
+    "pinyin": "téng kōng ér qǐ",
+    "english": "Soar Up"
+  },
+  "荒野的恩赐": {
+    "pinyin": "huāng yě de ēn cì",
+    "english": "Gift of the Wilderness"
+  },
+  "时光流逝": {
+    "pinyin": "shí guāng liú shì",
+    "english": "Time Flows"
+  },
+  "分分秒秒": {
+    "pinyin": "fēn fēn miǎo miǎo",
+    "english": "Tick by Tick"
+  },
+  "抽搐": {
+    "pinyin": "chōu chù",
+    "english": "Convulsion"
+  },
+  "吸气": {
+    "pinyin": "xī qì",
+    "english": "Inhalation"
+  },
+  "啼哭": {
+    "pinyin": "tí kū",
+    "english": "Wail"
+  },
+  "林间": {
+    "pinyin": "lín jiān",
+    "english": "Among the Trees"
+  },
+  "沙哑": {
+    "pinyin": "shā yǎ",
+    "english": "Hoarse"
+  },
+  "微弱的回声": {
+    "pinyin": "wēi ruò de huí shēng",
+    "english": "Faint Echo"
+  },
+  "运气": {
+    "pinyin": "yùn qì",
+    "english": "Luck"
+  },
+  "命运": {
+    "pinyin": "mìng yùn",
+    "english": "Fate"
+  },
+  "野兽": {
+    "pinyin": "yě shòu",
+    "english": "Beast"
+  },
+  "数小时": {
+    "pinyin": "shù xiǎo shí",
+    "english": "Several Hours"
+  },
+  "婴儿": {
+    "pinyin": "yīng ér",
+    "english": "Infant"
+  },
+  "耗尽": {
+    "pinyin": "jiè hǎo",
+    "english": "Exhausted"
+  },
+  "光辉": {
+    "pinyin": "guāng huī",
+    "english": "Radiance"
+  },
+  "优雅": {
+    "pinyin": "yōu yǎ",
+    "english": "Elegant"
+  },
+  "天鹅": {
+    "pinyin": "tiān é",
+    "english": "Swan"
+  },
+  "新生儿的": {
+    "pinyin": "xīn shēng ér de",
+    "english": "Newborn's"
+  },
+  "微小": {
+    "pinyin": "wēi xiǎo",
+    "english": "Tiny"
+  },
+  "扇动": {
+    "pinyin": "shàn dòng",
+    "english": "Flap"
+  },
+  "腾空": {
+    "pinyin": "téng kōng",
+    "english": "Soar"
+  },
+  "离去": {
+    "pinyin": "lí qù",
+    "english": "Depart"
+  },
+  "荒野": {
+    "pinyin": "huāng yě",
+    "english": "Wilderness"
+  },
+  "恩赐": {
+    "pinyin": "ēn cì",
+    "english": "Blessing"
+  },
+  "时光": {
+    "pinyin": "shí guāng",
+    "english": "Time"
+  },
+  "四肢": {
+    "pinyin": "sì zhī",
+    "english": "Limbs"
+  },
+  "嗓音": {
+    "pinyin": "sǎng yīn",
+    "english": "Voice"
+  },
+  "回荡": {
+    "pinyin": "huí dàng",
+    "english": "Echo"
+  },
+  "滑过": {
+    "pinyin": "huá guò",
+    "english": "Slide"
+  },
+  "介入": {
+    "pinyin": "jiè rù",
+    "english": "Intervene"
+  },
+  "老骑士凯撒": {
+    "pinyin": "lǎo qí shì kǎi sà",
+    "english": "Old Knight Kaiser"
+  },
+  "凯撒": {
+    "pinyin": "kǎi sà",
+    "english": "Kaiser"
+  },
+  "威尔": {
+    "pinyin": "wēi ěr",
+    "english": "Will"
+  },
+  "第二章": {
+    "pinyin": "dì èr zhāng",
+    "english": "Chapter 2"
+  },
+  "系统": {
+    "pinyin": "xì tǒng",
+    "english": "System"
+  },
+  "老骑士": {
+    "pinyin": "lǎo qí shì",
+    "english": "Old Knight"
+  },
+  "蓝星": {
+    "pinyin": "lán xīng",
+    "english": "Blue Star"
+  },
+  "猎人": {
+    "pinyin": "liè rén",
+    "english": "Hunter"
+  },
+  "深渊": {
+    "pinyin": "shēn yuān",
+    "english": "Abyss"
+  },
+  "恶魔": {
+    "pinyin": "è mó",
+    "english": "Demon"
+  },
+  "类人型": {
+    "pinyin": "lèi rén xíng",
+    "english": "Anthropoid"
+  },
+  "断线风筝": {
+    "pinyin": "duàn xiàn fēng zheng",
+    "english": "Kite with a Broken String"
+  },
+  "低阶": {
+    "pinyin": "dī jiē",
+    "english": "Low Rank"
+  },
+  "狼型怪物": {
+    "pinyin": "láng xíng guài wù",
+    "english": "Wolf-type Monster"
+  },
+  "灵魂": {
+    "pinyin": "lín hún",
+    "english": "Soul"
+  },
+  "诅咒": {
+    "pinyin": "zǔ zhòu",
+    "english": "Curse"
+  },
+  "誓言": {
+    "pinyin": "shì yán",
+    "english": "Oath"
+  },
+  "重生": {
+    "pinyin": "chóng shēng",
+    "english": "Rebirth"
+  },
+  "末日": {
+    "pinyin": "mù rì",
+    "english": "Doomsday"
+  },
+  "世间": {
+    "pinyin": "shì jiān",
+    "english": "Mortal World"
+  },
+  "宇宙": {
+    "pinyin": "yǔ zhòu",
+    "english": "Universe"
+  },
+  "多元宇宙": {
+    "pinyin": "duō yuán yǔ zhòu",
+    "english": "Multiverse"
+  },
+  "恶魔一族": {
+    "pinyin": "è mó yī zú",
+    "english": "Demon Clan"
+  },
+  "第三章": {
+    "pinyin": "dì sān zhāng",
+    "english": "Chapter 3"
+  },
+  "弑神者传奇": {
+    "pinyin": "shì shén zhě chuán qí",
+    "english": "Legend of the God-Slayer"
+  },
+  "天选之子": {
+    "pinyin": "tiān xuǎn zhī zǐ",
+    "english": "Chosen One"
+  },
+  "魔法": {
+    "pinyin": "mó fǎ",
+    "english": "Magic"
+  },
+  "阿瑞斯": {
+    "pinyin": "ā ruì sī",
+    "english": "Ares"
+  },
+  "力量体系": {
+    "pinyin": "lì liàng tǐ xì",
+    "english": "Power System"
+  },
+  "灵气": {
+    "pinyin": "líng qì",
+    "english": "Spirit Qi"
+  },
+  "法则": {
+    "pinyin": "fǎ zé",
+    "english": "Law"
+  },
+  "平行宇宙": {
+    "pinyin": "píng xíng yǔ zhòu",
+    "english": "Parallel Universe"
+  },
+  "月桂树": {
+    "pinyin": "yuè guì shù",
+    "english": "Bay Tree"
+  },
+  "系统同步率": {
+    "pinyin": "xì tǒng tóng bù lǜ",
+    "english": "System Sync Rate"
+  },
+  "100%": {
+    "pinyin": "yī bǎi pāi fēn",
+    "english": "100%"
+  },
+  "至高系统": {
+    "pinyin": "zhì gāo xì tǒng",
+    "english": "Supreme System"
+  },
+  "活体系统": {
+    "pinyin": "huó tǐ xì tǒng",
+    "english": "Living System"
+  },
+  "两世轮回": {
+    "pinyin": "liǎng shì lún huí",
+    "english": "Two Lives Reincarnation"
+  },
+  "主人": {
+    "pinyin": "zhǔ rén",
+    "english": "Master"
+  },
+  "凡人": {
+    "pinyin": "fán rén",
+    "english": "Mortal"
+  },
+  "灵魂空间": {
+    "pinyin": "lín hún kōng jiān",
+    "english": "Soul Space"
+  },
+  "宇宙意志": {
+    "pinyin": "yǔ zhòu yì zhì",
+    "english": "Cosmic Will"
+  },
+  "神明": {
+    "pinyin": "shén míng",
+    "english": "Deity"
+  },
+  "苍天": {
+    "pinyin": "cāng tiān",
+    "english": "Heavens"
+  },
+  "基石": {
+    "pinyin": "jī shí",
+    "english": "Cornerstone"
+  },
+  "宿主": {
+    "pinyin": "zhǔ sù",
+    "english": "Host"
+  },
+  "共生": {
+    "pinyin": "gòng shēng",
+    "english": "Symbiosis"
+  },
+  "绑定": {
+    "pinyin": "bǎng dìng",
+    "english": "Bind"
+  },
+  "系统商城": {
+    "pinyin": "xì tǒng shāng chéng",
+    "english": "System Shop"
+  },
+  "绑定系统": {
+    "pinyin": "bǎng dìng xì tǒng",
+    "english": "Bind System"
+  },
+  "商城点数": {
+    "pinyin": "shāng chéng diǎn shù",
+    "english": "Shop Points"
+  },
+  "使命": {
+    "pinyin": "shǐ mìng",
+    "english": "Mission"
+  },
+  "境界": {
+    "pinyin": "jìng jiè",
+    "english": "Realm"
+  },
+  "飞升": {
+    "pinyin": "fēi shēng",
+    "english": "Ascension"
+  },
+  "第四章": {
+    "pinyin": "dì sì zhāng",
+    "english": "Chapter 4"
+  },
+  "离开村庄（上）": {
+    "pinyin": "lí kāi cūn zhuāng (shàng)",
+    "english": "Leaving the Village (Part 1)"
+  },
+  "橡树村": {
+    "pinyin": "xiàng shù cūn",
+    "english": "Oak Tree Village"
+  },
+  "阿瑞斯大陆": {
+    "pinyin": "ā ruì sī dà lù",
+    "english": "Ares Continent"
+  },
+  "里弗戴尔帝国": {
+    "pinyin": "lǐ fú dāi ěr dì guó",
+    "english": "Rivendale Empire"
+  },
+  "魔力": {
+    "pinyin": "mó lì",
+    "english": "Magic Power"
+  },
+  "附魔": {
+    "pinyin": "fù mó",
+    "english": "Enchantment"
+  },
+  "符文": {
+    "pinyin": "fú wén",
+    "english": "Runes"
+  },
+  "大灾变": {
+    "pinyin": "dà zāi biàn",
+    "english": "Great Cataclysm"
+  },
+  "孤儿院": {
+    "pinyin": "gū ér yuàn",
+    "english": "Orphanage"
+  },
+  "大篇章": {
+    "pinyin": "dà piān zhāng",
+    "english": "Great Chapter"
+  },
+  "帝国首都": {
+    "pinyin": "dì guó shǒu dū",
+    "english": "Imperial Capital"
+  },
+  "天赋觉醒仪式": {
+    "pinyin": "tiān fù jué xǐng yí shì",
+    "english": "Talent Awakening Ceremony"
+  },
+  "世界学院试炼": {
+    "pinyin": "shì jiè xué yuàn shì liàn",
+    "english": "World Academy Trial"
+  },
+  "束缚": {
+    "pinyin": "shù fù",
+    "english": "Bond"
+  },
+  "长远的计划": {
+    "pinyin": "cháng yuǎn de jì huà",
+    "english": "Long-term Plan"
+  },
+  "十四岁": {
+    "pinyin": "shí sì suì",
+    "english": "Fourteen Years Old"
+  },
+  "次年十五岁": {
+    "pinyin": "cì nián shí wǔ suì",
+    "english": "Fifteen Years Old the Following Year"
+  },
+  "基础的读写能力": {
+    "pinyin": "jī chǔ de dú xiě néng lì",
+    "english": "Basic Literacy"
+  },
+  "离奇的巧合": {
+    "pinyin": "lí qí de qiǎo hé",
+    "english": "Quirky Coincidence"
+  },
+  "英语": {
+    "pinyin": "yīng yǔ",
+    "english": "English"
+  },
+  "总结好的笔记": {
+    "pinyin": "zǒng jié hǎo de bǐ jì",
+    "english": "Summarized Notes"
+  },
+  "白蚁蛀蚀": {
+    "pinyin": "bái yǐ zhú shí",
+    "english": "Termite-Eaten"
+  },
+  "老夫妇": {
+    "pinyin": "lǎo fū fù",
+    "english": "Old Couple"
+  },
+  "遗产": {
+    "pinyin": "yí chǎn",
+    "english": "Legacy"
+  },
+  "壁橱": {
+    "pinyin": "bì chú",
+    "english": "Wardrobe"
+  },
+  "天鹅绒": {
+    "pinyin": "tiān é róng",
+    "english": "Velvet"
+  },
+  "年代久远": {
+    "pinyin": "nián dài jiǔ yuǎn",
+    "english": "Time-Tested"
+  },
+  "淡淡的霉味": {
+    "pinyin": "dàn dàn de méi wèi",
+    "english": "Faint Musty Scent"
+  },
+  "德拉科尼亚": {
+    "pinyin": "dé lā kē ní yà",
+    "english": "Drakonnia"
+  },
+  "骑士团": {
+    "pinyin": "qí shì tuán",
+    "english": "Knighthood"
+  },
+  "护身符": {
+    "pinyin": "hù shēn fú",
+    "english": "Amulet"
+  },
+  "领主": {
+    "pinyin": "lǐng zhǔ",
+    "english": "Lord"
+  },
+  "储物指环": {
+    "pinyin": "chǔ wù zhǐ huán",
+    "english": "Storage Ring"
+  },
+  "五立方米": {
+    "pinyin": "wǔ fāng mǐ lì",
+    "english": "Five Cubic Meters"
+  },
+  "低阶货色": {
+    "pinyin": "dī jiē huò sè",
+    "english": "Low-Tier Item"
+  },
+  "无限背包": {
+    "pinyin": "wú xiàn bèi bāo",
+    "english": "Infinite Backpack"
+  },
+  "商店": {
+    "pinyin": "shāng diàn",
+    "english": "Shop"
+  },
+  "第五章": {
+    "pinyin": "dì wǔ zhāng",
+    "english": "Chapter 5"
+  },
+  "离开村庄（下）": {
+    "pinyin": "lí kāi cūn zhuāng (xià)",
+    "english": "Leaving the Village (Part 2)"
+  },
+  "储物格": {
+    "pinyin": "chǔ wù gé",
+    "english": "Storage Grid"
+  },
+  "系统库存": {
+    "pinyin": "xì tǒng kù cún",
+    "english": "System Inventory"
+  },
+  "商店点数": {
+    "pinyin": "shāng diàn diǎn shù",
+    "english": "Shop Points"
+  },
+  "无限系统库存": {
+    "pinyin": "wú xiàn xì tǒng kù cún",
+    "english": "Infinite System Inventory"
+  },
+  "无限空间": {
+    "pinyin": "wú xiàn kōng jiān",
+    "english": "Infinite Space"
+  },
+  "完美保鲜": {
+    "pinyin": "wán měi bǎo xiān",
+    "english": "Perfect Preservation"
+  },
+  "永恒存储": {
+    "pinyin": "yǒng héng cún chǔ",
+    "english": "Eternal Storage"
+  },
+  "永不腐朽": {
+    "pinyin": "yǒng bù fǔ xiǔ",
+    "english": "Never to Decay"
+  },
+  "永不衰老": {
+    "pinyin": "yǒng bù shāi lǎo",
+    "english": "Never to Age"
+  },
+  "储物戒指": {
+    "pinyin": "chǔ wù jiè zhi",
+    "english": "Storage Ring"
+  },
+  "龙家骑士": {
+    "pinyin": "lóng jiā qí shì",
+    "english": "Dragon Family Knight"
+  },
+  "剑术秘籍": {
+    "pinyin": "jiàn shù mì jí",
+    "english": "Sword Technique Manual"
+  },
+  "垃圾级": {
+    "pinyin": "lā jī jí",
+    "english": "Trash Rank"
+  },
+  "无限库存": {
+    "pinyin": "wú xiàn kù cún",
+    "english": "Infinite Inventory"
+  },
+  "手环": {
+    "pinyin": "shǒu huán",
+    "english": "Bracelet"
+  },
+  "首都": {
+    "pinyin": "shǒu dū",
+    "english": "Capital"
+  },
+  "无限储物空间": {
+    "pinyin": "wú xiàn chǔ wù kōng jiān",
+    "english": "Infinite Storage Space"
+  },
+  "第一章": {
+    "pinyin": "dì yī zhāng",
+    "english": "Chapter 1"
+  },
+  "橡木村": {
+    "pinyin": "qiāo mù cūn",
+    "english": "Oakwood Village"
+  },
+  "裁缝": {
+    "pinyin": "cái féng",
+    "english": "Tailor"
+  },
+  "老伯": {
+    "pinyin": "lǎo bó",
+    "english": "Elder"
+  },
+  "旅人": {
+    "pinyin": "lǚ rén",
+    "english": "Traveler"
+  },
+  "第一天": {
+    "pinyin": "dì yī tiān",
+    "english": "Day 1"
+  },
+  "哥布林": {
+    "pinyin": "gē bǔ lín",
+    "english": "Goblin"
+  },
+  "奥普拉镇": {
+    "pinyin": "ào pǔ lā zhèn",
+    "english": "Oprah Town"
+  },
+  "软泥": {
+    "pinyin": "ruǎn ní",
+    "english": "Slime"
+  },
+  "巨蟒": {
+    "pinyin": "jù mǎng",
+    "english": "Giant Python"
+  },
+  "魔法生物": {
+    "pinyin": "fǎ shī shēng wù",
+    "english": "Magic Creature"
+  },
+  "秒针": {
+    "pinyin": "miǎo zhēn",
+    "english": "Second Hand"
+  },
+  "分钟": {
+    "pinyin": "fēn zhōng",
+    "english": "Minute"
+  },
+  "洞": {
+    "pinyin": "dòng",
+    "english": "Cave"
+  },
+  "寂静": {
+    "pinyin": "jì jìng",
+    "english": "Silence"
+  },
+  "毯子": {
+    "pinyin": "tǎn zi",
+    "english": "Blanket"
+  },
+  "第六章": {
+    "pinyin": "dì yī zhāng",
+    "english": "Chapter 6"
+  },
+  "魔教": {
+    "pinyin": "mó jiào",
+    "english": "Demon Sect"
+  },
+  "阿利斯大陆": {
+    "pinyin": "ā lì sī dà lù",
+    "english": "Aris Continent"
+  },
+  "冥界": {
+    "pinyin": "míng jiè",
+    "english": "Netherworld"
+  },
+  "魔物": {
+    "pinyin": "mó wù",
+    "english": "Demon Beast"
+  },
+  "远古大劫难": {
+    "pinyin": "yuǎn gǔ dà jié nàn",
+    "english": "Ancient Great Calamity"
+  },
+  "土著居民": {
+    "pinyin": "tǔ zhù jū mín",
+    "english": "Natives"
+  },
+  "人类": {
+    "pinyin": "rén lèi",
+    "english": "Human"
+  },
+  "精灵": {
+    "pinyin": "jīng líng",
+    "english": "Elf"
+  },
+  "兽族": {
+    "pinyin": "shòu zú",
+    "english": "Beastkin"
+  },
+  "矮人": {
+    "pinyin": "ǎi rén",
+    "english": "Dwarf"
+  },
+  "巨龙": {
+    "pinyin": "jù lóng",
+    "english": "Great Dragon"
+  },
+  "吸血鬼": {
+    "pinyin": "xì xuè guī",
+    "english": "Vampire"
+  },
+  "影裔": {
+    "pinyin": "yǐng yì",
+    "english": "Shadowkin"
+  },
+  "禁术": {
+    "pinyin": "jìn shù",
+    "english": "Forbidden Art"
+  },
+  "魔神": {
+    "pinyin": "mó shén",
+    "english": "Demon God"
+  },
+  "洞穴": {
+    "pinyin": "dòng xué",
+    "english": "Cave"
+  },
+  "魔纹": {
+    "pinyin": "mó wén",
+    "english": "Demon Runes"
+  },
+  "教徒": {
+    "pinyin": "jiào tú",
+    "english": "Cultist"
+  },
+  "法器": {
+    "pinyin": "fǎ qì",
+    "english": "Magic Artifact"
+  },
+  "任务日志": {
+    "pinyin": "rèn wù rì zhì",
+    "english": "Mission Log"
+  },
+  "暗杀计划": {
+    "pinyin": "àn shā jì huà",
+    "english": "Assassination Plan"
+  },
+  "隐秘据点": {
+    "pinyin": "yǐn mì jù diǎn",
+    "english": "Secret Stronghold"
+  },
+  "猎捕目标": {
+    "pinyin": "liè bǔ mù biāo",
+    "english": "Hunting Target"
+  },
+  "毒发": {
+    "pinyin": "dú fā",
+    "english": "Poisoning"
+  },
+  "器官衰竭": {
+    "pinyin": "qì guān shuāi jié",
+    "english": "Organ Failure"
+  },
+  "精神攻击": {
+    "pinyin": "jīng shén gōng jī",
+    "english": "Spiritual Attack"
+  },
+  "日记": {
+    "pinyin": "rì jì",
+    "english": "Diary"
+  },
+  "行囊": {
+    "pinyin": "háng náng",
+    "english": "Satchel"
+  },
+  "前世": {
+    "pinyin": "qián shì",
+    "english": "Past Life"
+  },
+  "小说": {
+    "pinyin": "xiǎo shuō",
+    "english": "Novel"
+  },
+  "赤红符文": {
+    "pinyin": "chì hóng fú wén",
+    "english": "Crimson Rune"
+  },
+  "小黑令牌": {
+    "pinyin": "xiǎo hēi túng pàn",
+    "english": "Small Black Token"
+  },
+  "身份令牌": {
+    "pinyin": "shēn fèn túng pàn",
+    "english": "Identity Token"
+  },
+  "野猪": {
+    "pinyin": "yě zhū",
+    "english": "Wild Boar"
+  },
+  "多亏": {
+    "pinyin": "duō kuī",
+    "english": "Thanks to"
+  },
+  "伏击": {
+    "pinyin": "fú jī",
+    "english": "Ambush"
+  },
+  "剧痛": {
+    "pinyin": "jù tòng",
+    "english": "Severe Pain"
+  },
+  "侧腹": {
+    "pinyin": "cè fù",
+    "english": "Side Abdomen"
+  },
+  "一里": {
+    "pinyin": "yī lǐ",
+    "english": "One Li"
+  },
+  "释然": {
+    "pinyin": "shì rán",
+    "english": "Relief"
+  },
+  "决意": {
+    "pinyin": "jué yì",
+    "english": "Determination"
+  },
+  "红石镇": {
+    "pinyin": "hóng shí zhèn",
+    "english": "Red Stone Town"
+  },
+  "笃定": {
+    "pinyin": "dǔ dìng",
+    "english": "Certainty"
+  },
+  "宽慰": {
+    "pinyin": "kuān wèi",
+    "english": "Comfort"
+  },
+  "跛行": {
+    "pinyin": "bǒ xíng",
+    "english": "Limping"
+  },
+  "弩弓": {
+    "pinyin": "nǔ gōng",
+    "english": "Crossbow"
+  },
+  "城门前": {
+    "pinyin": "chéng mén qián",
+    "english": "Before the City Gate"
+  },
+  "衣衫褴褛": {
+    "pinyin": "yī shān lán lǚ",
+    "english": "Ragged Clothes"
+  },
+  "守卫": {
+    "pinyin": "shǒu wèi",
+    "english": "Guard"
+  },
+  "报上名": {
+    "pinyin": "bào shàng míng",
+    "english": "State Your Name"
+  },
+  "虚软": {
+    "pinyin": "xū ruǎn",
+    "english": "Soft and Weak"
+  },
+  "镇": {
+    "pinyin": "zhèn",
+    "english": "Town (Cultivation Location)"
+  },
+  "意识": {
+    "pinyin": "yì shí",
+    "english": "Consciousness (System Term)"
+  },
+  "第七章": {
+    "pinyin": "dì qī zhāng",
+    "english": "Chapter 7"
+  },
+  "歌剧镇": {
+    "pinyin": "gē jù zhèn",
+    "english": "Opera Town"
+  },
+  "骑士队长": {
+    "pinyin": "qí shì duì zhǎng",
+    "english": "Knight Captain"
+  },
+  "骑士铠甲": {
+    "pinyin": "qí shì kǎi jiǎ",
+    "english": "Knight Armor"
+  },
+  "储物戒": {
+    "pinyin": "chǔ wù jiè",
+    "english": "Storage Ring"
+  },
+  "凡俗衣物": {
+    "pinyin": "fán sú yī wù",
+    "english": "Mundane Clothing"
+  },
+  "十字弩": {
+    "pinyin": "shí zì nǔ",
+    "english": "Crossbow"
+  },
+  "商队": {
+    "pinyin": "shāng duì",
+    "english": "Caravan"
+  },
+  "银币": {
+    "pinyin": "yín bì",
+    "english": "Silver Coin"
+  },
+  "肋骨骨折": {
+    "pinyin": "lèi gǔ gǔ zhé",
+    "english": "Rib Fracture"
+  },
+  "治愈魔法": {
+    "pinyin": "chì yù mó fǎ",
+    "english": "Healing Magic"
+  },
+  "治疗师": {
+    "pinyin": "zhì liáo shī",
+    "english": "Healer"
+  },
+  "贵族": {
+    "pinyin": "guì zú",
+    "english": "Nobility"
+  },
+  "低级药水": {
+    "pinyin": "dī jí yào shuǐ",
+    "english": "Low-grade Potion"
+  },
+  "金币": {
+    "pinyin": "jīn bì",
+    "english": "Gold Coin"
+  },
+  "绷带": {
+    "pinyin": "bēng dài",
+    "english": "Bandage"
+  },
+  "左臂": {
+    "pinyin": "zuǒ bì",
+    "english": "Left Arm"
+  },
+  "西城门": {
+    "pinyin": "xī chéng mén",
+    "english": "West City Gate"
+  },
+  "十天": {
+    "pinyin": "shí tiān",
+    "english": "Ten Days"
+  },
+  "十天后": {
+    "pinyin": "shí tiān hòu",
+    "english": "Ten Days Later"
+  },
+  "埃坦": {
+    "pinyin": "āi tǎn",
+    "english": "Ethan"
+  },
+  "两个月后": {
+    "pinyin": "liǎng gè yuè hòu",
+    "english": "Two Months Later"
+  },
+  "入场费": {
+    "pinyin": "rù chǎng fèi",
+    "english": "Entrance Fee"
+  },
+  "镇门": {
+    "pinyin": "zhèn mén",
+    "english": "Town Gate"
+  },
+  "新生婴儿": {
+    "pinyin": "xīn shēng yīng ér",
+    "english": "Newborn Infant"
+  },
+  "时间线": {
+    "pinyin": "shí jiān xiàn",
+    "english": "Timeline"
+  },
+  "灾厄": {
+    "pinyin": "zāi è",
+    "english": "Calamity"
+  },
+  "契约书": {
+    "pinyin": "qì yuē shū",
+    "english": "Contract Book"
+  },
+  "剑圣": {
+    "pinyin": "jiàn shèng",
+    "english": "Sword Saint"
+  },
+  "帝国": {
+    "pinyin": "dì guó",
+    "english": "Empire"
+  },
+  "深渊之门": {
+    "pinyin": "shēn yuān zhī mén",
+    "english": "Gate of the Abyss"
+  },
+  "主角": {
+    "pinyin": "zhǔ jué",
+    "english": "Protagonist"
+  },
+  "记忆": {
+    "pinyin": "jì yì",
+    "english": "Memory"
+  },
+  "力量源泉": {
+    "pinyin": "lì liàng yuán quán",
+    "english": "Source of Power"
+  },
+  "早期优势": {
+    "pinyin": "zǎo qī yōu shì",
+    "english": "Early Advantage"
+  },
+  "快速成长": {
+    "pinyin": "kuài sù chéng zhǎng",
+    "english": "Rapid Growth"
+  },
+  "怪物般的未来天赋": {
+    "pinyin": "guài wù bān de wèi lái tiān fù",
+    "english": "Monster-like Future Talent"
+  },
+  "第八章": {
+    "pinyin": "dì bā zhāng",
+    "english": "Chapter 8"
+  },
+  "寻得伊森": {
+    "pinyin": "xún dé yī sēn",
+    "english": "Finding Ethan"
+  },
+  "神圣邮差": {
+    "pinyin": "shén shèng yóu chā",
+    "english": "Divine Postman"
+  },
+  "SP": {
+    "pinyin": "sī pī",
+    "english": "System Points"
+  },
+  "系统印记": {
+    "pinyin": "xì tǒng yìn jì",
+    "english": "System Mark"
+  },
+  "连我那只猫": {
+    "pinyin": "lián wǒ nà zhī māo",
+    "english": "Even my cat"
+  },
+  "当众扭胯": {
+    "pinyin": "dāng zhòng niǔ huá",
+    "english": "Twisting Hips in Public"
+  },
+  "EX": {
+    "pinyin": "ē kǔ",
+    "english": "Extraordinary Rank"
+  },
+  "第二个任务": {
+    "pinyin": "dì èr gè rèn wù",
+    "english": "Second Task"
+  },
+  "第一个": {
+    "pinyin": "dì yī gè",
+    "english": "First One"
+  },
+  "# 任务 1": {
+    "pinyin": "shù rèn wù yī",
+    "english": "Task 1"
+  },
+  "歌剧孤儿院": {
+    "pinyin": "gē jù gū ér yuàn",
+    "english": "Opera Orphanage"
+  },
+  "大陆": {
+    "pinyin": "dà lù",
+    "english": "Mainland"
+  },
+  "修女": {
+    "pinyin": "xiū nǚ",
+    "english": "Nun"
+  },
+  "南希": {
+    "pinyin": "nán xī",
+    "english": "Nancy"
+  },
+  "南希修女": {
+    "pinyin": "nán xī xiū nǚ",
+    "english": "Sister Nancy"
+  },
+  "伊森": {
+    "pinyin": "yī sēn",
+    "english": "Ethan"
+  },
+  "印记": {
+    "pinyin": "yìn jì",
+    "english": "Mark"
+  },
+  "救世主": {
+    "pinyin": "jiù shì zhǔ",
+    "english": "Savior"
+  },
+  "宿舍厅": {
+    "pinyin": "sù shě tīng",
+    "english": "Dormitory Hall"
+  },
+  "金红": {
+    "pinyin": "jīn hóng",
+    "english": "Golden Red"
+  },
+  "夕阳": {
+    "pinyin": "xī yáng",
+    "english": "Setting Sun"
+  },
+  "地平线": {
+    "pinyin": "dì píng xiàn",
+    "english": "Horizon"
+  },
+  "outer": {
+    "pinyin": "outer",
+    "english": "Outer"
+  },
+  "围栏": {
+    "pinyin": "wéi lán",
+    "english": "Fence"
+  },
+  "舌尖": {
+    "pinyin": "shé jiān",
+    "english": "Tip of Tongue"
+  },
+  "闷响": {
+    "pinyin": "mèn xiǎng",
+    "english": "Dull Sound"
+  },
+  "声源": {
+    "pinyin": "shēng yuán",
+    "english": "Sound Source"
+  },
+  "小身影": {
+    "pinyin": "xiǎo shēn yǐng",
+    "english": "Small Silhouette"
+  },
+  "外围": {
+    "pinyin": "wài wéi",
+    "english": "Perimeter"
+  },
+  "游乐区": {
+    "pinyin": "yóu lè qū",
+    "english": "Play Area"
+  },
+  "泥污": {
+    "pinyin": "ní wū",
+    "english": "Mud Stains"
+  },
+  "金发": {
+    "pinyin": "jīn fà",
+    "english": "Golden Hair"
+  },
+  "绿眸": {
+    "pinyin": "lǜ móu",
+    "english": "Green Eyes"
+  },
+  "被选中的人": {
+    "pinyin": "bèi xuǎn zhōng de rén",
+    "english": "The Chosen One"
+  },
+  "未来": {
+    "pinyin": "wèi lái",
+    "english": "Future"
+  },
+  "灾难": {
+    "pinyin": "zāi nàn",
+    "english": "Disaster"
+  },
+  "辉煌": {
+    "pinyin": "huī huáng",
+    "english": "Glory"
+  },
+  "催化剂": {
+    "pinyin": "cuì huà jī",
+    "english": "Catalyst"
+  },
+  "心跳": {
+    "pinyin": "xīn tiào",
+    "english": "Heartbeat"
+  },
+  "静止": {
+    "pinyin": "jìng zhǐ",
+    "english": "Still"
+  },
+  "算计": {
+    "pinyin": "suàn jì",
+    "english": "Calculation"
+  },
+  "恶霸": {
+    "pinyin": "è bà",
+    "english": "Bully"
+  },
+  "安静": {
+    "pinyin": "ān jìng",
+    "english": "Quiet"
+  },
+  "瘦弱": {
+    "pinyin": "shòu ruò",
+    "english": "Thin and Weak"
+  },
+  "注意": {
+    "pinyin": "zhù yì",
+    "english": "Attention"
+  },
+  "向前": {
+    "pinyin": "xiàng qián",
+    "english": "Forward"
+  },
+  "肩膀": {
+    "pinyin": "jiān bǎng",
+    "english": "Shoulder"
+  },
+  "颤抖": {
+    "pinyin": "chàn dǒu",
+    "english": "Tremble"
+  },
+  "习惯": {
+    "pinyin": "xí guàn",
+    "english": "Habit"
+  },
+  "隐藏": {
+    "pinyin": "yǐn cáng",
+    "english": "Hide"
+  },
+  "痛苦": {
+    "pinyin": "tòng kǔ",
+    "english": "Pain"
+  },
+  "第九章": {
+    "pinyin": "dì jiǔ zhāng",
+    "english": "Chapter 9"
+  },
+  "致剑圣的一封信": {
+    "pinyin": "zhì jiàn shèng de yī fēng xìn",
+    "english": "A Letter to the Sword Saint"
+  },
+  "掠食者": {
+    "pinyin": "lüè shí zhě",
+    "english": "Predator"
+  },
+  "英雄": {
+    "pinyin": "yīng xióng",
+    "english": "Hero"
+  },
+  "精血": {
+    "pinyin": "jīng xuè",
+    "english": "Refined Blood"
+  },
+  "叮": {
+    "pinyin": "dīng",
+    "english": "Ding"
+  },
+  "目标绑定": {
+    "pinyin": "mù biāo bǎng dìng",
+    "english": "Target Bind"
+  },
+  "被选中者": {
+    "pinyin": "bèi xuǎn zhōng zhě",
+    "english": "The Chosen One"
+  },
+  "任务 1": {
+    "pinyin": "rèn wù 1",
+    "english": "Mission 1"
+  },
+  "糖果贿赂": {
+    "pinyin": "táng guǒ huì lù",
+    "english": "Candy Bribe"
+  },
+  "互利共生": {
+    "pinyin": "hù lì gòng shēng",
+    "english": "Mutual Symbiosis"
+  },
+  "羁绊": {
+    "pinyin": "jī bàn",
+    "english": "Bond"
+  },
+  "悲剧起源": {
+    "pinyin": "bēi jù qǐ yuán",
+    "english": "Tragedy Origin"
+  },
+  "模式": {
+    "pinyin": "mó shì",
+    "english": "Mode"
+  },
+  "神谕信匣": {
+    "pinyin": "shén yù xìn xiá",
+    "english": "Oracle Letter Box"
+  },
+  "金色面板": {
+    "pinyin": "jīn sè miàn bǎn",
+    "english": "Golden Panel"
+  },
+  "风暴之刃": {
+    "pinyin": "fēng bào zhī dān",
+    "english": "Blade of Storm"
+  },
+  "风暴龙门": {
+    "pinyin": "fēng bào lóng mén",
+    "english": "Storm Dragon Gate"
+  },
+  "里德维尔帝国": {
+    "pinyin": "lǐ dé wēi ěr dì guó",
+    "english": "Reid维尔 Empire"
+  },
+  "奥帕小镇": {
+    "pinyin": "ào pà xiǎo zhèn",
+    "english": "Town of Opa"
+  },
+  "全知者": {
+    "pinyin": "quán zhī zhě",
+    "english": "Omniscient One"
+  },
+  "大德干森林": {
+    "pinyin": "dà dé gàn sēn lín",
+    "english": "Great Dekan Forest"
+  },
+  "剑意": {
+    "pinyin": "jiàn yì",
+    "english": "Sword Intent"
+  },
+  "克劳斯": {
+    "pinyin": "kè lǎo sī",
+    "english": "Klaus"
+  },
+  "黑袍教众": {
+    "pinyin": "hēi páo jiào zhòng",
+    "english": "Black Robe Cultists"
+  },
+  "恶魔之神": {
+    "pinyin": "è mó zhī shén",
+    "english": "God of Demons"
+  },
+  "基拉克": {
+    "pinyin": "jī lā kè",
+    "english": "Ghirak"
+  },
+  "空间": {
+    "pinyin": "kōng jiān",
+    "english": "Space"
+  },
+  "流光": {
+    "pinyin": "liú guāng",
+    "english": "Flowing Light"
+  },
+  "蝴蝶": {
+    "pinyin": "hú dié",
+    "english": "Butterfly"
+  },
+  "aura": {
+    "pinyin": "ào er",
+    "english": "Aura"
+  },
+  "教众": {
+    "pinyin": "jiào zhòng",
+    "english": "Cultist"
+  },
+  "布莱恩": {
+    "pinyin": "bù lǎi yuē",
+    "english": "Brian"
+  },
+  "风暴龙": {
+    "pinyin": "fēng bào lóng",
+    "english": "Storm Dragon"
+  },
+  "第十章": {
+    "pinyin": "dì shí zhāng",
+    "english": "Chapter 10"
+  },
+  "瑞德河帝国": {
+    "pinyin": "ruì dé hé dì guó",
+    "english": "Red River Empire"
+  },
+  "束缚者": {
+    "pinyin": "shù fù zhě",
+    "english": "Binder"
+  },
+  "威廉": {
+    "pinyin": "wū lián",
+    "english": "William"
+  },
+  "阶位": {
+    "pinyin": "jiē wèi",
+    "english": "Rank"
+  },
+  "未觉醒": {
+    "pinyin": "wèi jué xǐng",
+    "english": "Unawakened"
+  },
+  "天赋": {
+    "pinyin": "tiān fù",
+    "english": "Talent"
+  },
+  "亲和": {
+    "pinyin": "qīn hé",
+    "english": "Affinity"
+  },
+  "技能/功法": {
+    "pinyin": "jì néng / gōng fǎ",
+    "english": "Skill/Technique"
+  },
+  "N.A": {
+    "pinyin": "nī ā",
+    "english": "N.A"
+  },
+  "别担心宿主": {
+    "pinyin": "bié dānxīn zhǔdōng",
+    "english": "Don't worry, Host"
+  },
+  "主线剧情": {
+    "pinyin": "zhǔxiàn jùqíng",
+    "english": "Main Plot"
+  },
+  "帝国都城": {
+    "pinyin": "dìguó dūchéng",
+    "english": "Imperial Capital"
+  },
+  "德拉科尼亚侯爵府": {
+    "pinyin": "dé lā kē ní yà hóu jué fǔ",
+    "english": "Marquisate of Drakonion"
+  },
+  "龙族": {
+    "pinyin": "lóng zú",
+    "english": "Dragon Race"
+  },
+  "直系后裔": {
+    "pinyin": "zhíxi jìhòu",
+    "english": "Direct Descendants"
+  },
+  "觉醒": {
+    "pinyin": "jué xǐng",
+    "english": "Awakening"
+  },
+  "道具": {
+    "pinyin": "dào jù",
+    "english": "Item"
+  },
+  "技能": {
+    "pinyin": "jì néng",
+    "english": "Skill"
+  },
+  "机遇": {
+    "pinyin": "jī yù",
+    "english": "Opportunity"
+  },
+  "两年": {
+    "pinyin": "liǎng nián",
+    "english": "Two Years"
+  },
+  "根基": {
+    "pinyin": "gēn jī",
+    "english": "Foundation"
+  },
+  "一周后": {
+    "pinyin": "yī zhōu hòu",
+    "english": "One Week Later"
+  },
+  "侯爵府": {
+    "pinyin": "hóu jué fǔ",
+    "english": "Marquis Manor"
+  },
+  "都城": {
+    "pinyin": "dū chéng",
+    "english": "Capital City"
+  },
+  "预警": {
+    "pinyin": "yù jǐng",
+    "english": "Warning"
+  },
+  "斗篷": {
+    "pinyin": "dǒu péng",
+    "english": "Cape"
+  },
+  "威压": {
+    "pinyin": "wēi yā",
+    "english": "Pressure"
+  },
+  "魔潮": {
+    "pinyin": "máo cháo",
+    "english": "Demon Tide"
+  },
+  "深渊潮汐": {
+    "pinyin": "shēn yuān cháo xī",
+    "english": "Abyssal Tides"
+  },
+  "神迹救世主": {
+    "pinyin": "shén jì jiù shì zhǔ",
+    "english": "Miracle Savior"
+  },
+  "斗篷人": {
+    "pinyin": "dǒu peng rén",
+    "english": "Cloaked Man"
+  },
+  "神谕": {
+    "pinyin": "shén yù",
+    "english": "Divine Oracle"
+  },
+  "镇领主": {
+    "pinyin": "zhèn lǐng zhǔ",
+    "english": "Town Lord"
+  },
+  "预言者": {
+    "pinyin": "yù yán zhě",
+    "english": "Prophet"
+  },
+  "权柄": {
+    "pinyin": "quán bǐng",
+    "english": "Authority"
+  },
+  "神圣蝴蝶": {
+    "pinyin": "shén shèng hú dié",
+    "english": "Sacred Butterfly"
+  },
+  "天启卷轴": {
+    "pinyin": "tiān qǐ juàn zhóu",
+    "english": "Apocalypse Scroll"
+  },
+  "灾劫": {
+    "pinyin": "zāi jié",
+    "english": "Calamity"
+  },
+  "地魔": {
+    "pinyin": "dì mó",
+    "english": "Earth Demon"
+  },
+  "四级灾难": {
+    "pinyin": "sì jí zāi nàn",
+    "english": "Level 4 Disaster"
+  },
+  "祭坛": {
+    "pinyin": "jì tán",
+    "english": "Altar"
+  },
+  "通讯水晶": {
+    "pinyin": "tōng xūn shuǐ jīng",
+    "english": "Communication Crystal"
+  },
+  "巨兽潮": {
+    "pinyin": "jù shuāi cháo",
+    "english": "Beast Tide"
+  },
+  "《弑神传奇》": {
+    "pinyin": "shì shén chuán qí",
+    "english": "Legend of God-Slaying"
+  },
+  "圣日帝国帝都": {
+    "pinyin": "shèng rì dì guó dì dū",
+    "english": "Capital of the Empire of Holy Sun"
+  },
+  "蓝袍": {
+    "pinyin": "lán páo",
+    "english": "Blue Robes"
+  },
+  "法师": {
+    "pinyin": "fǎ shī",
+    "english": "Mage"
+  },
+  "奥术符印": {
+    "pinyin": "ào shù fú yìn",
+    "english": "Arcane Sigil"
+  },
+  "宏伟的教堂": {
+    "pinyin": "hóng wěi de qiáng táng",
+    "english": "Magnificent Cathedral"
+  },
+  "神父": {
+    "pinyin": "shén fū",
+    "english": "Priest"
+  },
+  "圣殿": {
+    "pinyin": "shèng diàn",
+    "english": "Sanctum"
+  },
+  "守护帝都的屏障": {
+    "pinyin": "shǒu hù dì dū de píng zhàng",
+    "english": "Barrier Guarding the Capital"
+  },
+  "古老法阵": {
+    "pinyin": "gǔ lǎo fǎ zhèn",
+    "english": "Ancient Magic Array"
+  },
+  "光之教会": {
+    "pinyin": "guāng zhī jiào huì",
+    "english": "Church of Light"
+  },
+  "大主教": {
+    "pinyin": "dà zhǔ jiào",
+    "english": "Archbishop"
+  },
+  "帝国皇宫": {
+    "pinyin": "dì guó huáng gōng",
+    "english": "Imperial Palace"
+  },
+  "新生儿": {
+    "pinyin": "xīn shēng ér",
+    "english": "Newborn"
+  },
+  "襁褓": {
+    "pinyin": "qiǎng bǎo",
+    "english": "Swaddling Cloth"
+  },
+  "帝都": {
+    "pinyin": "dì dū",
+    "english": "Imperial Capital"
+  },
+  "风暴": {
+    "pinyin": "fēng bào",
+    "english": "Storm"
+  },
+  "市民": {
+    "pinyin": "shì mín",
+    "english": "Citizen"
+  },
+  "激流": {
+    "pinyin": "jī liú",
+    "english": "Rapids"
+  },
+  "藏身处": {
+    "pinyin": "cáng shēn chù",
+    "english": "Hiding Spot"
+  },
+  "彩虹": {
+    "pinyin": "cǎi hóng",
+    "english": "Rainbow"
+  },
+  "序章": {
+    "pinyin": "xù zhāng",
+    "english": "Prologue"
+  },
+  "咒语": {
+    "pinyin": "zhòu yǔ",
+    "english": "Spells"
+  },
+  "教堂": {
+    "pinyin": "jià táng",
+    "english": "Cathedral"
+  },
+  "祈祷钟": {
+    "pinyin": "qí dǎo zhōng",
+    "english": "Prayer Bell"
+  },
+  "金袍": {
+    "pinyin": "jīn páo",
+    "english": "Golden Robe"
+  },
+  "战刃": {
+    "pinyin": "zhàn rèn",
+    "english": "Battle Blade"
+  },
+  "主河": {
+    "pinyin": "zhǔ hé",
+    "english": "Main River"
+  },
+  "森林": {
+    "pinyin": "sēn lín",
+    "english": "Forest"
+  },
+  "森林小径": {
+    "pinyin": "sēn lín xiǎo jìng",
+    "english": "Forest path"
+  },
+  "边境": {
+    "pinyin": "biāo jìng",
+    "english": "Borderlands"
+  },
+  "古树": {
+    "pinyin": "gǔ shù",
+    "english": "Ancient Tree"
+  },
+  "Chapter 2": {
+    "pinyin": "dì yī zhāng",
+    "english": "Chapter 2"
+  },
+  "天真的喜悦": {
+    "pinyin": "tiān zhēn de xǐ yuè",
+    "english": "Innocent Joy"
+  },
+  "絮叨": {
+    "pinyin": "xù dao",
+    "english": "Rambling"
+  },
+  "千遍": {
+    "pinyin": "qiān biàn",
+    "english": "A Thousand Times"
+  },
+  "祖父": {
+    "pinyin": "zǔ fù",
+    "english": "Grandfather"
+  },
+  "祖母": {
+    "pinyin": "zǔ mǔ",
+    "english": "Grandmother"
+  },
+  "病榻": {
+    "pinyin": "bìng tà",
+    "english": "Sickbed"
+  },
+  "无微不至": {
+    "pinyin": "wú wēi bù zhì",
+    "english": "Meticulous Care"
+  },
+  "烹饪": {
+    "pinyin": "pēng rèn",
+    "english": "Cooking"
+  },
+  "支撑": {
+    "pinyin": "zhī chēng",
+    "english": "Support"
+  },
+  "并排而立": {
+    "pinyin": "bìng pái ér lì",
+    "english": "Standing Side by Side"
+  },
+  "世界": {
+    "pinyin": "shì jiè",
+    "english": "World"
+  },
+  "阴影": {
+    "pinyin": "yǐn yuè",
+    "english": "Shadow"
+  },
+  "常人": {
+    "pinyin": "cháng rén",
+    "english": "Ordinary Person"
+  },
+  "狼型": {
+    "pinyin": "láng xíng",
+    "english": "Wolf Type"
+  },
+  "怪物": {
+    "pinyin": "guài wù",
+    "english": "Monster"
+  },
+  "地狱": {
+    "pinyin": "dì yù",
+    "english": "Hell"
+  }
+}

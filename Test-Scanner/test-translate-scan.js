@@ -13,7 +13,9 @@ const CHUNK_SIZE = 500; // characters
 let llamaBackend = null;
 let llamaModel = null;
 let llamaContext = null;
-let LlamaChatSessionCls = null;
+let globalSequence = null;
+let translateSession = null;
+let scanSession = null;
 
 async function initLlama() {
     console.log("Initializing local GGUF model via node-llama-cpp...");
@@ -78,34 +80,42 @@ IMPORTANT:
 
 async function translateText(text) {
     if (!text.trim()) return '';
-    const sequence = llamaContext.getSequence();
-    const session = new LlamaChatSessionCls({
-        contextSequence: sequence,
-        systemPrompt: TRANSLATE_PROMPT
-    });
+    
+    if (!globalSequence) globalSequence = llamaContext.getSequence();
+
+    if (!translateSession) {
+        translateSession = new LlamaChatSessionCls({
+            contextSequence: globalSequence,
+            systemPrompt: TRANSLATE_PROMPT
+        });
+    }
 
     try {
-        const translated = await session.prompt(text, { temperature: 0.3 });
-        sequence.dispose();
+        globalSequence.clearHistory();
+        translateSession.resetChatHistory();
+        const translated = await translateSession.prompt(text, { temperature: 0.3 });
         return translated.trim();
     } catch (e) {
         console.error('Translation error:', e.message);
-        try { sequence.dispose(); } catch(err){}
         return text; 
     }
 }
 
 async function extractTerms(chunkText) {
-    const sequence = llamaContext.getSequence();
-    const session = new LlamaChatSessionCls({
-        contextSequence: sequence,
-        systemPrompt: SCAN_PROMPT
-    });
+    if (!globalSequence) globalSequence = llamaContext.getSequence();
+
+    if (!scanSession) {
+        scanSession = new LlamaChatSessionCls({
+            contextSequence: globalSequence,
+            systemPrompt: SCAN_PROMPT
+        });
+    }
 
     try {
+        globalSequence.clearHistory();
+        scanSession.resetChatHistory();
         const prompt = `Extract the domain-specific terms from the following text:\n\n${chunkText}`;
-        const result = await session.prompt(prompt, { temperature: 0.1 });
-        sequence.dispose();
+        const result = await scanSession.prompt(prompt, { temperature: 0.1 });
 
         const jsonMatch = result.match(/\[\s*\{[\s\S]*\}\s*\]/);
         if (jsonMatch) return JSON.parse(jsonMatch[0]);
@@ -114,7 +124,6 @@ async function extractTerms(chunkText) {
         return [];
     } catch (e) {
         console.error("Failed to parse JSON from AI:", e.message);
-        try { sequence.dispose(); } catch(err){}
         return [];
     }
 }
@@ -178,6 +187,7 @@ async function runTest() {
     console.log(`\n✅ Translate + Extraction complete! Saved ${Object.keys(customDict).length} total terms to test-dict.json`);
     
     try {
+        if (globalSequence) globalSequence.dispose();
         llamaContext.dispose();
         llamaModel.dispose();
     } catch(e){}

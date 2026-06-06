@@ -94,25 +94,34 @@ a:hover {
 
 /* Chapter List Grid */
 .chapter-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 .chapter-list a {
-    display: block;
-    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 8px;
-    text-align: left;
+    text-align: center;
     color: var(--text-color);
-    transition: background 0.2s;
+    transition: all 0.2s ease;
+    font-size: 0.95rem;
+    font-weight: 500;
 }
 
 .chapter-list a:hover {
-    background: #334155;
+    background: var(--accent-color);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
     text-decoration: none;
+    border-color: var(--accent-color);
 }
 
 /* Reading Layout */

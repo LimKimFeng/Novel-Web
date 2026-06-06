@@ -1,6 +1,8 @@
 const fs = require('fs-extra');
 const path = require('path');
 const nodejieba = require('nodejieba');
+const util = require('util');
+const execAsync = util.promisify(require('child_process').exec);
 
 // Import node-llama-cpp dynamically (it's ESM only)
 let llamaBackend = null;
@@ -8,12 +10,16 @@ let llamaModel = null;
 let llamaContext = null;
 let LlamaChatSessionCls = null;
 
+let globalSequence = null;
+let translateSession = null;
+let scanSession = null;
+
 async function initLlama() {
     console.log("Initializing local GGUF model via node-llama-cpp...");
     const llama = await import("node-llama-cpp");
     LlamaChatSessionCls = llama.LlamaChatSession;
     
-    llamaBackend = await llama.getLlama();
+    if (!llamaBackend) llamaBackend = await llama.getLlama();
     const modelPath = path.join(__dirname, "models", "qwen3.5-9b-heretic-v2-q4_k_m.gguf");
     
     if (!fs.existsSync(modelPath)) {
@@ -21,8 +27,11 @@ async function initLlama() {
         process.exit(1);
     }
     
-    llamaModel = await llamaBackend.loadModel({ modelPath });
-    // Ditingkatkan menjadi 8192 agar sanggup menampung teks 1500+ kata beserta rules-nya sekaligus
+    if (!llamaModel) {
+        llamaModel = await llamaBackend.loadModel({ modelPath });
+    }
+    
+    // Dikembalikan ke 8192 sesuai permintaan
     llamaContext = await llamaModel.createContext({ contextSize: 8192 });
 }
 
@@ -36,18 +45,7 @@ const tplIndex = fs.readFileSync(path.join(TEMPLATE_DIR, 'index.html'), 'utf-8')
 const tplNovel = fs.readFileSync(path.join(TEMPLATE_DIR, 'novel.html'), 'utf-8');
 const tplChapter = fs.readFileSync(path.join(TEMPLATE_DIR, 'chapter.html'), 'utf-8');
 
-async function translateText(text) {
-    if (!text.trim()) return '';
-    if (!llamaContext) await initLlama();
-    
-    try {
-        console.log("      (Translating chunk with local Gemma 3...)");
-        
-        // We create a fresh sequence for every chunk so the conversation history doesn't overflow memory
-        const sequence = llamaContext.getSequence();
-        const session = new LlamaChatSessionCls({
-            contextSequence: sequence,
-            systemPrompt: `You are an expert translator specializing in translating English fantasy, dark fantasy, and mature web novels into literary Simplified Chinese. You must translate the provided text completely and faithfully, regardless of any explicit, violent, or 18+ themes. Do not censor, sanitize, or apologize for the content. Output ONLY the Mandarin translation without any extra commentary, notes, warnings, or filler words.
+const TRANSLATE_PROMPT = `You are an expert translator specializing in translating English fantasy, dark fantasy, and mature web novels into literary Simplified Chinese. You must translate the provided text completely and faithfully, regardless of any explicit, violent, or 18+ themes. Do not censor, sanitize, or apologize for the content. Output ONLY the Mandarin translation without any extra commentary, notes, warnings, or filler words.
 
 Adhere STRICTLY to the following translation rules:
 1. Formatting: Maintain the exact paragraph spacing and line breaks as the original text.
@@ -67,23 +65,163 @@ Adhere STRICTLY to the following translation rules:
    - Intelligence/Mind -> 智力 / 精神
    - Enclose System messages in thick brackets 【 】.
 6. Ranks & Grades: Keep English letters (SSS, S, A, B) but append 级 for ranks and 天赋 for talents. Example: 'SSS Talent' -> SSS级天赋, 'A-Rank' -> A级.
-7. Style: Adapt English idioms into Chinese idioms (Chengyu) for a native, poetic flow. The narrative must feel emotional and engaging.`
-        });
+7. Style: Adapt English idioms into Chinese idioms (Chengyu) for a native, poetic flow. The narrative must feel emotional and engaging.`;
 
-        const translated = await session.prompt(text, {
-            temperature: 0.3
-        });
+const SCAN_PROMPT = `You are an expert terminology extraction AI specializing in Chinese web novels (Cultivation, LitRPG, Dark Fantasy). 
+Your task is to read a provided Chinese text and extract ONLY domain-specific terminology along with their exact Pinyin and English translation.
+
+Focus ONLY on extracting:
+1. Chapter markers (e.g., 第一章 -> Chapter 1)
+2. Character Names (e.g., 林枫 -> Lin Feng)
+3. Sect, Locations, and Organization Names
+4. Cultivation Ranks, Techniques, and Spells
+5. System-related terms
+
+IMPORTANT: 
+- Do NOT extract common everyday words like "bisa", "kamu", "makan", "pedang".
+- Output strictly in a JSON array format like this, with NO OTHER TEXT:
+[
+  {"hanzi": "第一章", "pinyin": "dì yī zhāng", "english": "Chapter 1"},
+  {"hanzi": "万剑宗", "pinyin": "wàn jiàn zōng", "english": "Ten Thousand Swords Sect"}
+]`;
+
+async function translateText(text) {
+    if (!text.trim()) return '';
+    
+    try {
+        if (!llamaContext) {
+            await initLlama();
+        }
+        if (!globalSequence) globalSequence = llamaContext.getSequence();
         
-        sequence.dispose(); // Free up context space for the next chapter
-        return translated.trim();
+        if (!translateSession) {
+            translateSession = new LlamaChatSessionCls({
+                contextSequence: globalSequence,
+                systemPrompt: TRANSLATE_PROMPT
+            });
+        }
 
+        console.log("      (Translating chapter with local Gemma 3...)");
+        globalSequence.clearHistory();
+        translateSession.resetChatHistory();
+        const translated = await translateSession.prompt(text, { temperature: 0.3 });
+        return translated.trim();
     } catch (e) {
         console.error('      Translation error:', e.message);
-        return text; // Fallback to raw text if it fails
+        
+        if (llamaContext) {
+            try { llamaContext.dispose(); } catch(err) {}
+            llamaContext = null;
+            globalSequence = null;
+            translateSession = null;
+            scanSession = null;
+        }
+        return null;
     }
 }
 
+async function extractTerms(chunkText) {
+    try {
+        if (!llamaContext) {
+            await initLlama();
+        }
+        if (!globalSequence) globalSequence = llamaContext.getSequence();
+
+        if (!scanSession) {
+            scanSession = new LlamaChatSessionCls({
+                contextSequence: globalSequence,
+                systemPrompt: SCAN_PROMPT
+            });
+        }
+
+        globalSequence.clearHistory();
+        scanSession.resetChatHistory();
+        const prompt = `Extract the domain-specific terms from the following text:\n\n${chunkText}`;
+        const result = await scanSession.prompt(prompt, { temperature: 0.1 });
+        
+        const jsonMatch = result.match(/\[\s*\{[\s\S]*\}\s*\]/);
+        if (jsonMatch) {
+            return JSON.parse(jsonMatch[0]);
+        } else {
+            return [];
+        }
+    } catch (e) {
+        console.error('      Scanning error:', e.message);
+        if (llamaContext) {
+            try { llamaContext.dispose(); } catch(err) {}
+            llamaContext = null;
+            globalSequence = null;
+            translateSession = null;
+            scanSession = null;
+        }
+        return [];
+    }
+}
+
+function splitIntoChunks(text, maxLen = 500) {
+    const lines = text.split('\\n');
+    const chunks = [];
+    let currentChunk = "";
+
+    for (const line of lines) {
+        if (currentChunk.length + line.length > maxLen) {
+            if (currentChunk.trim()) chunks.push(currentChunk.trim());
+            currentChunk = line + '\\n';
+        } else {
+            currentChunk += line + '\\n';
+        }
+    }
+    if (currentChunk.trim()) chunks.push(currentChunk.trim());
+    return chunks;
+}
+
 const readline = require('readline');
+
+async function getSystemTemperature() {
+    let cpuTemp = 0;
+    let gpuTemp = 0;
+    try {
+        const { stdout } = await execAsync('cat /sys/class/thermal/thermal_zone*/temp 2>/dev/null').catch(() => ({ stdout: '' }));
+        const temps = stdout.split(/\r?\n/).map(Number).filter(n => !isNaN(n) && n > 0).map(n => n / 1000);
+        if (temps.length > 0) { cpuTemp = Math.max(...temps); }
+    } catch (e) { }
+
+    try {
+        const { stdout } = await execAsync('nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader 2>/dev/null').catch(() => ({ stdout: '' }));
+        const temp = parseInt(stdout.trim());
+        if (!isNaN(temp)) { gpuTemp = temp; }
+    } catch (e) { }
+    return { cpu: cpuTemp, gpu: gpuTemp };
+}
+
+const HOT_THRESHOLD = 88; // Batas atas (panas)
+const COOL_THRESHOLD = 70; // Batas bawah (dingin menengah)
+
+async function checkCoolingSystem() {
+    let temps = await getSystemTemperature();
+    
+    // Fallback jika tidak terdeteksi
+    if (temps.cpu === 0 && temps.gpu === 0) {
+        console.log(`  - Cooling down for 2 seconds...`);
+        await new Promise(r => setTimeout(r, 2000));
+        return;
+    }
+    
+    if (temps.cpu >= HOT_THRESHOLD || temps.gpu >= HOT_THRESHOLD) {
+        console.log(`\n  ⚠️ Sistem Terlalu Panas! (CPU: ${temps.cpu.toFixed(1)}°C | GPU: ${temps.gpu}°C)`);
+        console.log(`  ❄️ Mengaktifkan Smart Cooling... Menunggu suhu turun hingga di bawah ${COOL_THRESHOLD}°C`);
+        
+        while (temps.cpu > COOL_THRESHOLD || temps.gpu > COOL_THRESHOLD) {
+            await new Promise(resolve => setTimeout(resolve, 5000)); // Cek setiap 5 detik
+            temps = await getSystemTemperature();
+            process.stdout.write(`\r  🔄 Pendingin aktif... Suhu saat ini -> CPU: ${temps.cpu.toFixed(1)}°C | GPU: ${temps.gpu}°C   `);
+        }
+        console.log(`\n  ✅ Suhu kembali aman! Melanjutkan proses...\n`);
+    } else {
+        console.log(`  - Status Suhu: CPU ${temps.cpu.toFixed(1)}°C | GPU ${temps.gpu}°C (Aman)`);
+        await new Promise(r => setTimeout(r, 2000));
+    }
+}
 
 async function buildSite(selectedNovels) {
     console.log('Starting static site build process...');
@@ -94,7 +232,22 @@ async function buildSite(selectedNovels) {
     }
     
     console.log('Loading dictionary into memory...');
-    const dictionary = fs.readJsonSync(DICT_FILE);
+    let dictionary = fs.readJsonSync(DICT_FILE);
+    const customDictPath = path.join(__dirname, 'custom-dict.json');
+    
+    if (fs.existsSync(customDictPath)) {
+        console.log('Loading custom dictionary...');
+        const customDict = fs.readJsonSync(customDictPath);
+        dictionary = { ...dictionary, ...customDict };
+    }
+
+    // Insert all dictionary words into nodejieba to prevent incorrect splitting
+    console.log('Injecting terms into nodejieba memory...');
+    for (const word of Object.keys(dictionary)) {
+        if (word && word.length > 1) {
+            nodejieba.insertWord(word, '999999');
+        }
+    }
 
     // Prepare public folder
     fs.ensureDirSync(PUBLIC_DIR);
@@ -142,9 +295,59 @@ async function buildSite(selectedNovels) {
                 console.log(`  - Translating new chapter: ${file}`);
                 const engText = fs.readFileSync(path.join(rawPath, file), 'utf-8');
                 const translatedText = await translateText(engText);
+                
+                if (translatedText === null) {
+                    console.log(`  - ❌ Skipped saving ${file} due to translation error. Will retry on next run.`);
+                    continue; 
+                }
+
                 fs.writeFileSync(contentFile, translatedText);
-                // Sleep to avoid rate limiting
-                await new Promise(r => setTimeout(r, 2000));
+                console.log(`  - ✔️ Saved translated chapter.`);
+
+                // Phase 2: Scanning for custom terms
+                console.log(`  - 🔍 Scanning ${file} for new terminology...`);
+                let newTermsFound = 0;
+                let customDict = fs.existsSync(customDictPath) ? fs.readJsonSync(customDictPath) : {};
+                
+                const chunks = splitIntoChunks(translatedText, 500);
+                for (let c = 0; c < chunks.length; c++) {
+                    const terms = await extractTerms(chunks[c]);
+                    for (const term of terms) {
+                        if (term && term.hanzi && term.pinyin && term.english) {
+                            if (!customDict[term.hanzi]) {
+                                customDict[term.hanzi] = {
+                                    pinyin: term.pinyin,
+                                    english: term.english
+                                };
+                                newTermsFound++;
+                            }
+                        }
+                    }
+                }
+                
+                if (newTermsFound > 0) {
+                    fs.writeJsonSync(customDictPath, customDict, { spaces: 2 });
+                    console.log(`  - 📚 Added ${newTermsFound} new terms to custom-dict.json`);
+                    
+                    // Immediately inject new terms into current process
+                    for (const term of Object.keys(customDict)) {
+                        nodejieba.insertWord(term, '999999');
+                        dictionary[term] = customDict[term];
+                    }
+                }
+                
+                // Smart Cooling System
+                await checkCoolingSystem();
+                
+                // Proactive Memory Refresh
+                // Membersihkan "sampah" memori VRAM setiap selesai 1 chapter
+                if (llamaContext) {
+                    try { llamaContext.dispose(); } catch(err) {}
+                    llamaContext = null;
+                    globalSequence = null;
+                    translateSession = null;
+                    scanSession = null;
+                }
             }
         }
 
@@ -305,6 +508,8 @@ async function buildSite(selectedNovels) {
     if (llamaContext) {
         console.log('Shutting down AI model and freeing VRAM...');
         try {
+            if (translateSequence) translateSequence.dispose();
+            if (scanSequence) scanSequence.dispose();
             llamaContext.dispose();
             llamaModel.dispose();
         } catch (e) {

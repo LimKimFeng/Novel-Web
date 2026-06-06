@@ -1,0 +1,2310 @@
+{
+  "12": {
+    "pinyin": "shí èr",
+    "english": "12 (Age)"
+  },
+  "14": {
+    "pinyin": "shí sì",
+    "english": "14"
+  },
+  "57": {
+    "pinyin": "wǔ shí qī",
+    "english": "57 (Current SP)"
+  },
+  "100": {
+    "pinyin": "bǎi",
+    "english": "100"
+  },
+  "800": {
+    "pinyin": "bā bǎi",
+    "english": "800"
+  },
+  "5000": {
+    "pinyin": "wǔ qiān",
+    "english": "5000"
+  },
+  "第十章": {
+    "pinyin": "dì shí zhāng",
+    "english": "Chapter 10"
+  },
+  "搬离": {
+    "pinyin": "bān lí",
+    "english": "Moving Out"
+  },
+  "威尔": {
+    "pinyin": "wēi ěr",
+    "english": "Will"
+  },
+  "系统": {
+    "pinyin": "xì tǒng",
+    "english": "System"
+  },
+  "束缚器": {
+    "pinyin": "shù fù qì",
+    "english": "Restraint Device"
+  },
+  "SP": {
+    "pinyin": "S P",
+    "english": "System Points"
+  },
+  "威廉": {
+    "pinyin": "wù lián",
+    "english": "William"
+  },
+  "人类": {
+    "pinyin": "rén lèi",
+    "english": "Human"
+  },
+  "未觉醒": {
+    "pinyin": "wèi jué xǐng",
+    "english": "Unawakened"
+  },
+  "N.A": {
+    "pinyin": "N A",
+    "english": "N.A (Skill/Technique)"
+  },
+  "任务": {
+    "pinyin": "rèn wù",
+    "english": "Quest"
+  },
+  "主线剧情": {
+    "pinyin": "zhǔ xiàn jù qíng",
+    "english": "Main Storyline"
+  },
+  "德拉科尼亚侯爵府": {
+    "pinyin": "dé lā kē ní yà hóu jué fǔ",
+    "english": "Marquisate of Drakonnia"
+  },
+  "龙纹": {
+    "pinyin": "lóng wén",
+    "english": "Dragon Pattern"
+  },
+  "护符": {
+    "pinyin": "hù fú",
+    "english": "Amulet"
+  },
+  "歌剧镇": {
+    "pinyin": "gē jù zhèn",
+    "english": "Opera Town"
+  },
+  "魔教": {
+    "pinyin": "mó jiào",
+    "english": "Demon Sect"
+  },
+  "剑圣": {
+    "pinyin": "jiàn shèng",
+    "english": "Sword Saint"
+  },
+  "克劳斯": {
+    "pinyin": "kè lā sī",
+    "english": "Klaus"
+  },
+  "布兰": {
+    "pinyin": "bù lán",
+    "english": "Blane"
+  },
+  "右臂": {
+    "pinyin": "yòu bì",
+    "english": "Right Arm"
+  },
+  "神谕": {
+    "pinyin": "shén yù",
+    "english": "Oracle"
+  },
+  "神蝶": {
+    "pinyin": "shén dié",
+    "english": "Divine Butterfly"
+  },
+  "天书": {
+    "pinyin": "tiān shū",
+    "english": "Heavenly Book"
+  },
+  "地魔": {
+    "pinyin": "dì mó",
+    "english": "Earth Demon"
+  },
+  "剑意": {
+    "pinyin": "jiàn yì",
+    "english": "Sword Intent"
+  },
+  "四级灾难": {
+    "pinyin": "sì jí zāi nàn",
+    "english": "Level 4 Disaster"
+  },
+  "弑神者传奇": {
+    "pinyin": "shì shén zhě chuán qí",
+    "english": "Legend of the God-Slayer"
+  },
+  "第 11 章": {
+    "pinyin": "dì shí yī zhāng",
+    "english": "Chapter 11"
+  },
+  "两年后": {
+    "pinyin": "liǎng nián hòu",
+    "english": "Two Years Later"
+  },
+  "帝国首都": {
+    "pinyin": "dì guó shǒu dū",
+    "english": "Imperial Capital"
+  },
+  "里弗戴尔帝国": {
+    "pinyin": "lǐ fú dé āi lǐ guó",
+    "english": "Rivdale Empire"
+  },
+  "无限巧克力屋": {
+    "pinyin": "wú xiàn qiǎo kè lì wū",
+    "english": "Infinite Chocolate House"
+  },
+  "F 级战士": {
+    "pinyin": "F jí zhàn shì",
+    "english": "F-Rank Warrior"
+  },
+  "十四岁": {
+    "pinyin": "shí sì suì",
+    "english": "Fourteen Years Old"
+  },
+  "铜币": {
+    "pinyin": "tóng bì",
+    "english": "Copper Coin"
+  },
+  "无限巧克力自动售货机": {
+    "pinyin": "wú xiàn qiǎo kè lì zì dòng shòu huò jī",
+    "english": "Infinite Chocolate Vending Machine"
+  },
+  "artifact": {
+    "pinyin": "ā rtif act",
+    "english": "Artifact"
+  },
+  "ambient mana": {
+    "pinyin": "ā mbient mǎ nà",
+    "english": "Ambient Mana"
+  },
+  "伊森": {
+    "pinyin": "yī sēn",
+    "english": "Ethan"
+  },
+  "风暴剑技": {
+    "pinyin": "fēng bào jiàn jī",
+    "english": "Storm Sword Technique"
+  },
+  "入门阶段": {
+    "pinyin": "rù mén jiē duàn",
+    "english": "Entry Stage"
+  },
+  "叮": {
+    "pinyin": "dīng",
+    "english": "Ding (System Notification)"
+  },
+  "洞察": {
+    "pinyin": "dòu chá",
+    "english": "Insight"
+  },
+  "强化体能训练": {
+    "pinyin": "qiáng huà tǐ néng xùn liàn",
+    "english": "Enhanced Physical Training"
+  },
+  "enhanced stamina": {
+    "pinyin": "ē nhānst mē nà",
+    "english": "Enhanced Stamina"
+  },
+  "physique": {
+    "pinyin": "p h y s i q u e",
+    "english": "Physique"
+  },
+  "binder": {
+    "pinyin": "b i n d e r",
+    "english": "Binder"
+  },
+  "完美": {
+    "pinyin": "wán měi",
+    "english": "Perfect"
+  },
+  "大师大成": {
+    "pinyin": "dà shī dà chéng",
+    "english": "Grandmaster Perfection"
+  },
+  "中级": {
+    "pinyin": "zhōng jí",
+    "english": "Intermediate"
+  },
+  "大师": {
+    "pinyin": "dà shī",
+    "english": "Master"
+  },
+  "新手": {
+    "pinyin": "xīn shǒu",
+    "english": "Novice"
+  },
+  "内环": {
+    "pinyin": "nèi huán",
+    "english": "Inner Ring"
+  },
+  "骑士": {
+    "pinyin": "qí shì",
+    "english": "Knight"
+  },
+  "外环": {
+    "pinyin": "wài huán",
+    "english": "Outer Ring"
+  },
+  "学院试炼": {
+    "pinyin": "xué yuàn shì liàn",
+    "english": "Academy Trial"
+  },
+  "觉醒": {
+    "pinyin": "jué xǐng",
+    "english": "Awakening"
+  },
+  "第十三章": {
+    "pinyin": "dì shí sān zhāng",
+    "english": "Chapter 13"
+  },
+  "泣血之泪": {
+    "pinyin": "qì xuè zhī lèi",
+    "english": "Tears of Weeping Blood"
+  },
+  "埃than": {
+    "pinyin": "ài dàn",
+    "english": "Aethan"
+  },
+  "风暴剑法": {
+    "pinyin": "fēng bào jiàn fǎ",
+    "english": "Storm Sword Technique"
+  },
+  "雷裂斩": {
+    "pinyin": "léi liè zhǎn",
+    "english": "Thunder Split Slash"
+  },
+  "风暴龙": {
+    "pinyin": "fēng bào lóng",
+    "english": "Storm Dragon"
+  },
+  "帝国": {
+    "pinyin": "dì guó",
+    "english": "Empire"
+  },
+  "王都": {
+    "pinyin": "wáng dū",
+    "english": "Capital City"
+  },
+  "第十四章": {
+    "pinyin": "dì shí sì zhāng",
+    "english": "Chapter 14"
+  },
+  "SSS 级": {
+    "pinyin": "SSS jí",
+    "english": "SSS Rank"
+  },
+  "觉醒辅助药水": {
+    "pinyin": "jué xǐng fǔ zhù yào shuǐ",
+    "english": "Awakening Auxiliary Potion"
+  },
+  "S 级": {
+    "pinyin": "S jí",
+    "english": "S Rank"
+  },
+  "100 倍系统": {
+    "pinyin": "bǎi bèi xì tǒng",
+    "english": "100x System"
+  },
+  "C 级": {
+    "pinyin": "C jí",
+    "english": "C Rank"
+  },
+  "亲和": {
+    "pinyin": "qīn hé",
+    "english": "Affinity"
+  },
+  "天赋": {
+    "pinyin": "tiān fù",
+    "english": "Talent"
+  },
+  "魔力": {
+    "pinyin": "mó lì",
+    "english": "Mana"
+  },
+  "魔力通路": {
+    "pinyin": "mó lì tōng lù",
+    "english": "Mana Pathway"
+  },
+  "高阶天赋": {
+    "pinyin": "gāo jiē tiān fù",
+    "english": "High-Tier Talent"
+  },
+  "C 级天赋": {
+    "pinyin": "C jí tiān fù",
+    "english": "C-Tier Talent"
+  },
+  "C 级亲和": {
+    "pinyin": "C jí qīn hé",
+    "english": "C-Tier Affinity"
+  },
+  "大先知": {
+    "pinyin": "dà xiān zhī",
+    "english": "Grand Prophet"
+  },
+  "深渊": {
+    "pinyin": "shēn yuān",
+    "english": "Abyss"
+  },
+  "恶魔": {
+    "pinyin": "mó mò",
+    "english": "Demon"
+  },
+  "血色泪": {
+    "pinyin": "xuè sè lèi",
+    "english": "Crimson Tear"
+  },
+  "道尔顿": {
+    "pinyin": "dào dú nà",
+    "english": "Dalton"
+  },
+  "王座厅": {
+    "pinyin": "wáng zuò tīng",
+    "english": "Throne Hall"
+  },
+  "暗影刺客": {
+    "pinyin": "yǐng xiāng cì kè",
+    "english": "Shadow Assassin"
+  },
+  "老将军": {
+    "pinyin": "lǎo jiāng jūn",
+    "english": "Old General"
+  },
+  "第十五章": {
+    "pinyin": "dì shí wǔ zhāng",
+    "english": "Chapter 15"
+  },
+  "皇帝": {
+    "pinyin": "huáng dì",
+    "english": "Emperor"
+  },
+  "Dalton": {
+    "pinyin": "dà lǔn",
+    "english": "Dalton"
+  },
+  "血泪": {
+    "pinyin": "xuè lèi",
+    "english": "Blood and Tears"
+  },
+  "Klaus": {
+    "pinyin": "kè lǔ sī",
+    "english": "Klaus"
+  },
+  "Demon Lord": {
+    "pinyin": "dèng mǎn lóng",
+    "english": "Demon Lord"
+  },
+  "Riverdale": {
+    "pinyin": "rì wēng dá lè",
+    "english": "Riverdale"
+  },
+  "demon army": {
+    "pinyin": "dèng mǎn jūn",
+    "english": "Demon Army"
+  },
+  "divine physique": {
+    "pinyin": "shén jīn fù qì",
+    "english": "Divine Physique"
+  },
+  "世界学院": {
+    "pinyin": "shì jiè xué yuàn",
+    "english": "World Academy"
+  },
+  "glare": {
+    "pinyin": "guāng lè",
+    "english": "Glare"
+  },
+  "tension": {
+    "pinyin": "tèng sī",
+    "english": "Tension"
+  },
+  "desperate emperor": {
+    "pinyin": "dài sī tè de huáng dì",
+    "english": "Desperate Emperor"
+  },
+  "wisps of energies": {
+    "pinyin": "wēi sī de ēng jī",
+    "english": "Wisps of Energies"
+  },
+  "revelation": {
+    "pinyin": "rì lèi fàn",
+    "english": "Revelation"
+  },
+  "tidal wave": {
+    "pinyin": "tí dāng bō",
+    "english": "Tidal Wave"
+  },
+  "第十六章": {
+    "pinyin": "dì shí liù zhāng",
+    "english": "Chapter 16"
+  },
+  "太阳之子": {
+    "pinyin": "tài yáng zhī zǐ",
+    "english": "Son of the Sun"
+  },
+  "你的觉醒": {
+    "pinyin": "nǐ de jué xǐng",
+    "english": "Your Awakening"
+  },
+  "红血天鹅绒": {
+    "pinyin": "hóng xuē tiān é róng",
+    "english": "Red Blood Velvet"
+  },
+  "阶位": {
+    "pinyin": "jiē wèi",
+    "english": "Rank"
+  },
+  "F": {
+    "pinyin": "F",
+    "english": "F"
+  },
+  "无法无天": {
+    "pinyin": "wú fǎ wú tiān",
+    "english": "Lawless"
+  },
+  "适应": {
+    "pinyin": "shì yìng",
+    "english": "Adaptation"
+  },
+  "至尊": {
+    "pinyin": "zhì zūn",
+    "english": "Supreme"
+  },
+  "太阳": {
+    "pinyin": "tài yáng",
+    "english": "Sun"
+  },
+  "SSS": {
+    "pinyin": "SSS",
+    "english": "SSS"
+  },
+  "体魄": {
+    "pinyin": "tǐ pò",
+    "english": "Physique"
+  },
+  "神日神体": {
+    "pinyin": "shén rì shén tǐ",
+    "english": "Divine Sun Physique"
+  },
+  "风暴剑术": {
+    "pinyin": "fēng bào jiàn shù",
+    "english": "Storm Swordsmanship"
+  },
+  "第一式": {
+    "pinyin": "dì yī shì",
+    "english": "First Form"
+  },
+  "圆满": {
+    "pinyin": "yuán mǎn",
+    "english": "Perfection"
+  },
+  "第二式": {
+    "pinyin": "dì èr shì",
+    "english": "Second Form"
+  },
+  "入门": {
+    "pinyin": "rù mén",
+    "english": "Entry"
+  },
+  "太阳权柄威压": {
+    "pinyin": "tài yáng quán bǐng wēi yā",
+    "english": "Solar Authority Pressure"
+  },
+  "无尽太阳 replenishment": {
+    "pinyin": "wú jìn tài yáng replenishment",
+    "english": "Endless Sun Replenishment"
+  },
+  "无限太阳再生": {
+    "pinyin": "wú xiàn tài yáng zài shēng",
+    "english": "Infinite Sun Regeneration"
+  },
+  "星焰": {
+    "pinyin": "xīng yàn",
+    "english": "Star Flame"
+  },
+  "万寒之敌": {
+    "pinyin": "wàn hán zhī dí",
+    "english": "Enemy of All Cold"
+  },
+  "绝对太阳亲和": {
+    "pinyin": "jué duì tài yáng qīn hé",
+    "english": "Absolute Sun Affinity"
+  },
+  "绝对适应": {
+    "pinyin": "jué duì shì yìng",
+    "english": "Absolute Adaptation"
+  },
+  "命运免疫": {
+    "pinyin": "mìng yùn miǎn yì",
+    "english": "Fate Immunity"
+  },
+  "无法无天·觉醒": {
+    "pinyin": "wú fǎ wú tiān · jué xǐng",
+    "english": "Lawless Awakening"
+  },
+  "无尽": {
+    "pinyin": "wú jìn",
+    "english": "Endless"
+  },
+  "万能语": {
+    "pinyin": "wàn néng yǔ",
+    "english": "Universal Tongue"
+  },
+  "当前 SP": {
+    "pinyin": "dāng qián SP",
+    "english": "Current SP"
+  },
+  "无法无天·适应（至尊）": {
+    "pinyin": "wú fǎ wú tiān · shì yìng (zhì zūn)",
+    "english": "Lawless Adaptation (Supreme)"
+  },
+  "神日神体（至尊）": {
+    "pinyin": "shén rì shén tǐ (zhì zūn)",
+    "english": "Divine Sun Physique (Supreme)"
+  },
+  "太阳亲和": {
+    "pinyin": "tài yáng qīn hé",
+    "english": "Sun Affinity"
+  },
+  "星焰统御": {
+    "pinyin": "xīng yàn tǒng yù",
+    "english": "Star Flame Command"
+  },
+  "火之绝对免疫": {
+    "pinyin": "huǒ zhī jué duì miǎn yì",
+    "english": "Absolute Fire Immunity"
+  },
+  "太阳再生": {
+    "pinyin": "tài yáng zài shēng",
+    "english": "Sun Regeneration"
+  },
+  "第十七章": {
+    "pinyin": "dì shí qī zhāng",
+    "english": "Chapter 17"
+  },
+  "马克西穆斯·辛克莱尔": {
+    "pinyin": "mǎ kè xī mù sī · xīn kè lái ěr",
+    "english": "Maximus Sinclair"
+  },
+  "坠入深渊之心": {
+    "pinyin": "zhuì rù shēn yuān zhī xīn",
+    "english": "Heart of the Abyss"
+  },
+  "莉亚": {
+    "pinyin": "lì yà",
+    "english": "Lia"
+  },
+  "辛克莱家族": {
+    "pinyin": "xīn kè lái jiā zú",
+    "english": "Sinclair Family"
+  },
+  "红丝绒巧克力蛋糕": {
+    "pinyin": "hóng sī róng qiǎo kè lì dàn gāo",
+    "english": "Red Velvet Chocolate Cake"
+  },
+  "至高系统": {
+    "pinyin": "zhì gāo xì tǒng",
+    "english": "Supreme System"
+  },
+  "至高好色系统": {
+    "pinyin": "zhì gāo hǎo sè xì tǒng",
+    "english": "Supreme Lustful System"
+  },
+  "绑定": {
+    "pinyin": "bǎng dìng",
+    "english": "Bind"
+  },
+  "系统提示": {
+    "pinyin": "xì tǒng tí shì",
+    "english": "System Prompt"
+  },
+  "A/N": {
+    "pinyin": "ā nī",
+    "english": "Author's Note"
+  },
+  "第十八章": {
+    "pinyin": "dì shí bā zhāng",
+    "english": "Chapter 18"
+  },
+  "麦克斯·辛克莱尔": {
+    "pinyin": "Mài kè sī · Xīn kè lěi ěr",
+    "english": "Max Sinclair"
+  },
+  "日元素": {
+    "pinyin": "rì yuán sù",
+    "english": "Sun Element"
+  },
+  "星火": {
+    "pinyin": "Xīng huǒ",
+    "english": "Starfire"
+  },
+  "精灵": {
+    "pinyin": "jīng líng",
+    "english": "Sprite"
+  },
+  "森林": {
+    "pinyin": "sēn lín",
+    "english": "Forest"
+  },
+  "免费券": {
+    "pinyin": "miǎn fèi quàn",
+    "english": "Free Voucher"
+  },
+  "商店": {
+    "pinyin": "shāng diàn",
+    "english": "Shop"
+  },
+  "分类": {
+    "pinyin": "fēn lèi",
+    "english": "Category"
+  },
+  "功法": {
+    "pinyin": "gōng fǎ",
+    "english": "Cultivation Technique"
+  },
+  "技能": {
+    "pinyin": "jì néng",
+    "english": "Skill"
+  },
+  "血脉": {
+    "pinyin": "xuè mài",
+    "english": "Bloodline"
+  },
+  "道具": {
+    "pinyin": "dào jù",
+    "english": "Item"
+  },
+  "DP": {
+    "pinyin": "D P",
+    "english": "DP"
+  },
+  "#任务 1": {
+    "pinyin": "Hào rèn wù yī",
+    "english": "Quest 1"
+  },
+  "正门": {
+    "pinyin": "zhèng mén",
+    "english": "Main Entrance"
+  },
+  "时限": {
+    "pinyin": "shí xiàn",
+    "english": "Time Limit"
+  },
+  "奖励": {
+    "pinyin": "jiǎng lì",
+    "english": "Reward"
+  },
+  "宿主": {
+    "pinyin": "sù zhǔ",
+    "english": "Host"
+  },
+  "防火墙": {
+    "pinyin": "huǒ bǎng qiáng",
+    "english": "Firewall"
+  },
+  "黑客": {
+    "pinyin": "hē kè",
+    "english": "Hacker"
+  },
+  "主门": {
+    "pinyin": "zhǔ mén",
+    "english": "Main Gate"
+  },
+  "低阶疗伤药水": {
+    "pinyin": "dī jiē liáo shāng yào shuǐ",
+    "english": "Low-Rank Healing Potion"
+  },
+  "储物空间": {
+    "pinyin": "chǔ wù kōng jiān",
+    "english": "Storage Space"
+  },
+  "恋人": {
+    "pinyin": "liàn rén",
+    "english": "Lover"
+  },
+  "陨落": {
+    "pinyin": "yǔn luò",
+    "english": "Fallen"
+  },
+  "直面": {
+    "pinyin": "zhí miàn",
+    "english": "Face"
+  },
+  "好剑": {
+    "pinyin": "hǎo jiàn",
+    "english": "Good Sword"
+  },
+  "第十九章": {
+    "pinyin": "dì shí jiǔ zhāng",
+    "english": "Chapter 19"
+  },
+  "辛克莱庄园": {
+    "pinyin": "xīn kè lái zhuāng yuán",
+    "english": "Sinclair Manor"
+  },
+  "马克西莫斯": {
+    "pinyin": "mǎ kè xī mǔ sī",
+    "english": "Maximos"
+  },
+  "辛克莱": {
+    "pinyin": "xīn kè lái",
+    "english": "Sinclair"
+  },
+  "爱德华": {
+    "pinyin": "ài dé huá",
+    "english": "Edward"
+  },
+  "女公爵": {
+    "pinyin": "nǚ gōng jué",
+    "english": "Duchess"
+  },
+  "男爵": {
+    "pinyin": "nán jué",
+    "english": "Baron"
+  },
+  "外城区": {
+    "pinyin": "wài chéng qū",
+    "english": "Outer District"
+  },
+  "C级": {
+    "pinyin": "C jí",
+    "english": "Rank C"
+  },
+  "低语微风": {
+    "pinyin": "dī yǔ wēi fēng",
+    "english": "Whispering Breeze"
+  },
+  "魔力池": {
+    "pinyin": "mó lì chí",
+    "english": "Mana Pool"
+  },
+  "F级": {
+    "pinyin": "F jí",
+    "english": "Rank F"
+  },
+  "无拘适应": {
+    "pinyin": "wú jū shì yìng",
+    "english": "Unrestricted Adaptation"
+  },
+  "魔力核心": {
+    "pinyin": "mó lì hé xīn",
+    "english": "Mana Core"
+  },
+  "系统面板": {
+    "pinyin": "xì tǒng miàn bǎn",
+    "english": "System Panel"
+  },
+  "第二十章": {
+    "pinyin": "dì èr zhāng",
+    "english": "Chapter 20"
+  },
+  "维兰": {
+    "pinyin": "wéi lán",
+    "english": "Vilan"
+  },
+  "木剑": {
+    "pinyin": "mù jiàn",
+    "english": "Wooden Sword"
+  },
+  "布莱恩": {
+    "pinyin": "bù lǎi ēn",
+    "english": "Brian"
+  },
+  "马克西莫": {
+    "pinyin": "mǎ kè xī mǔ",
+    "english": "Maximo"
+  },
+  "公爵": {
+    "pinyin": "gōng jué",
+    "english": "Duke"
+  },
+  "第一篇章": {
+    "pinyin": "dì yī piān zhāng",
+    "english": "First Arc"
+  },
+  "第 21 章": {
+    "pinyin": "dì èr shí yī zhāng",
+    "english": "Chapter 21"
+  },
+  "调查 - 1": {
+    "pinyin": "diào chá - 1",
+    "english": "Investigation - 1"
+  },
+  "F+": {
+    "pinyin": "F jiāng",
+    "english": "Rank F+"
+  },
+  "至高": {
+    "pinyin": "zhì gāo",
+    "english": "Supreme"
+  },
+  "日": {
+    "pinyin": "rì",
+    "english": "Sun"
+  },
+  "暴君剑术": {
+    "pinyin": "bào jūn jiàn shù",
+    "english": "Tyrant Sword Art"
+  },
+  "日冕威压": {
+    "pinyin": "rì miǎn wēi yā",
+    "english": "Solar Crown Pressure"
+  },
+  "无尽日补": {
+    "pinyin": "wú jìn rì bǔ",
+    "english": "Endless Sun Restoration"
+  },
+  "无限日再生": {
+    "pinyin": "wú xiàn rì zài shēng",
+    "english": "Infinite Sun Regeneration"
+  },
+  "绝对日亲和": {
+    "pinyin": "jué duì rì qīn hé",
+    "english": "Absolute Sun Affinity"
+  },
+  "无法无天觉醒": {
+    "pinyin": "wú fǎ wú tiān jué xǐng",
+    "english": "Lawless Awakening"
+  },
+  "无限": {
+    "pinyin": "wú xiàn",
+    "english": "Infinity"
+  },
+  "通用语": {
+    "pinyin": "tōng yòng yǔ",
+    "english": "Lingua Franca"
+  },
+  "阿利斯大陆": {
+    "pinyin": "ā lì sī dà lù",
+    "english": "Aris Continent"
+  },
+  "任务#1": {
+    "pinyin": "rèn wù hào yī",
+    "english": "Mission #1"
+  },
+  "虚静": {
+    "pinyin": "xū jìng",
+    "english": "Void Tranquility"
+  },
+  "B 阶": {
+    "pinyin": "B jiē",
+    "english": "Rank B"
+  },
+  "被动": {
+    "pinyin": "bèi dòng",
+    "english": "Passive"
+  },
+  "商店点": {
+    "pinyin": "shāng diàn diǎn",
+    "english": "Shop Points"
+  },
+  "医官": {
+    "pinyin": "yī guān",
+    "english": "Medical Officer"
+  },
+  "侧廊": {
+    "pinyin": "cè láng",
+    "english": "Side Corridor"
+  },
+  "剑圣克劳斯": {
+    "pinyin": "jiàn shèng kè lǎo sī",
+    "english": "Sword Saint Klaus"
+  },
+  "第二十二章": {
+    "pinyin": "dì èr shí èr zhāng",
+    "english": "Chapter 22"
+  },
+  "调查（下）": {
+    "pinyin": "diào chá (xià)",
+    "english": "Investigation (Part 2)"
+  },
+  "魔导灯": {
+    "pinyin": "mó dǎo dēng",
+    "english": "Magic Lamp"
+  },
+  "断剑": {
+    "pinyin": "duàn jiàn",
+    "english": "Broken Sword"
+  },
+  "唐纳德": {
+    "pinyin": "táng nà dé",
+    "english": "Donald"
+  },
+  "灵压": {
+    "pinyin": "líng yā",
+    "english": "Spirit Pressure"
+  },
+  "C级战士": {
+    "pinyin": "C jí zhàn shì",
+    "english": "C-Rank Warrior"
+  },
+  "低语微风斩": {
+    "pinyin": "dī yǔ wēi fēng zhǎn",
+    "english": "Whispering Breeze Slash"
+  },
+  "第 23 章": {
+    "pinyin": "dì èr shí sān zhāng",
+    "english": "Chapter 23"
+  },
+  "布赖恩": {
+    "pinyin": "bù lǎi ēn",
+    "english": "Brian"
+  },
+  "达顿家族": {
+    "pinyin": "dá dùn jiā zú",
+    "english": "Dalton Family"
+  },
+  "朱利安": {
+    "pinyin": "zhū lì ān",
+    "english": "Julian"
+  },
+  "马克西姆斯·辛克莱": {
+    "pinyin": "mǎ kè xī mǔ sī · xīn kè lái",
+    "english": "Maximus Sinclair"
+  },
+  "状态窗口": {
+    "pinyin": "zhuàng tài chuāng kǒu",
+    "english": "Status Window"
+  },
+  "姓名": {
+    "pinyin": "xìng míng",
+    "english": "Name"
+  },
+  "种族": {
+    "pinyin": "zhuǒng zhú",
+    "english": "Race"
+  },
+  "年龄": {
+    "pinyin": "nián líng",
+    "english": "Age"
+  },
+  "等级": {
+    "pinyin": "děng jí",
+    "english": "Rank"
+  },
+  "奴隶主": {
+    "pinyin": "lú nǚ zhǔ",
+    "english": "Master of Slaves"
+  },
+  "SSS级": {
+    "pinyin": "SSS jí",
+    "english": "SSS Rank"
+  },
+  "黑暗": {
+    "pinyin": "hēi àn",
+    "english": "Darkness"
+  },
+  "技法": {
+    "pinyin": "jì fǎ",
+    "english": "Technique"
+  },
+  "契约战": {
+    "pinyin": "qì yuē zhàn",
+    "english": "Contract Battle"
+  },
+  "傀儡": {
+    "pinyin": "kuǐ lěi",
+    "english": "Puppet"
+  },
+  "羁绊": {
+    "pinyin": "jī bàn",
+    "english": "Bond"
+  },
+  "第 24 章": {
+    "pinyin": "dì èr shí zhāng",
+    "english": "Chapter 24"
+  },
+  "暗属性": {
+    "pinyin": "àn shǔ xìng",
+    "english": "Dark Attribute"
+  },
+  "传说级": {
+    "pinyin": "chuán shuō jí",
+    "english": "Legendary Rank"
+  },
+  "奴役之主": {
+    "pinyin": "nú yì zhī zhǔ",
+    "english": "Lord of Enslavement"
+  },
+  "绝对": {
+    "pinyin": "jué duì",
+    "english": "Absolute"
+  },
+  "日属性": {
+    "pinyin": "rì shǔ xìng",
+    "english": "Sun Attribute"
+  },
+  "大圆满": {
+    "pinyin": "dà yuán mǎn",
+    "english": "Great Perfection"
+  },
+  "无限领域": {
+    "pinyin": "wú xiàn lǐng yù",
+    "english": "Infinite Domain"
+  },
+  "天裂神剑诀": {
+    "pinyin": "tiān liè shén jiàn jué",
+    "english": "Heaven-Splitting Divine Sword Technique"
+  },
+  "起源断绝": {
+    "pinyin": "qǐ yuán duàn jué",
+    "english": "Origin Severance"
+  },
+  "主权剑意": {
+    "pinyin": "zhǔ quán jiàn yì",
+    "english": "Sovereign Sword Intent"
+  },
+  "圣阶": {
+    "pinyin": "shèng jiē",
+    "english": "Saint Rank"
+  },
+  "神体": {
+    "pinyin": "shén tǐ",
+    "english": "Divine Body"
+  },
+  "适应天赋": {
+    "pinyin": "shì yìng tiān fù",
+    "english": "Adaptation Talent"
+  },
+  "主角团": {
+    "pinyin": "zhǔ jiǎo tuán",
+    "english": "Protagonist Group"
+  },
+  "日（SSS）": {
+    "pinyin": "rì (SSS)",
+    "english": "Sun (SSS)"
+  },
+  "日（绝对）": {
+    "pinyin": "rì (jué duì)",
+    "english": "Sun (Absolute)"
+  },
+  "元素平衡": {
+    "pinyin": "yuán sù píng héng",
+    "english": "Elemental Balance"
+  },
+  "神阶": {
+    "pinyin": "shén jiē",
+    "english": "Divine Rank"
+  },
+  "第二十五章": {
+    "pinyin": "dì èr shí wǔ zhāng",
+    "english": "Chapter 25"
+  },
+  "茅屋": {
+    "pinyin": "máo wū",
+    "english": "Thatched Cottage"
+  },
+  "断源": {
+    "pinyin": "duàn yuán",
+    "english": "Severing the Source"
+  },
+  "传识": {
+    "pinyin": "chuán shí",
+    "english": "Telepathic Insight"
+  },
+  "内息": {
+    "pinyin": "nèi xī",
+    "english": "Internal Breath"
+  },
+  "伊桑": {
+    "pinyin": "yī sāng",
+    "english": "Ethan"
+  },
+  "C阶": {
+    "pinyin": "C jiē",
+    "english": "C Rank"
+  },
+  "日轮神体": {
+    "pinyin": "rì lún shén tǐ",
+    "english": "Sun Wheel Divine Body"
+  },
+  "律法适应": {
+    "pinyin": "lǜ fǎ shì yìng",
+    "english": "Law Adaptation"
+  },
+  "铁阶": {
+    "pinyin": "tiě jiē",
+    "english": "Iron Rank"
+  },
+  "铜阶": {
+    "pinyin": "tóng jiē",
+    "english": "Bronze Rank"
+  },
+  "银阶": {
+    "pinyin": "yín jiē",
+    "english": "Silver Rank"
+  },
+  "金阶": {
+    "pinyin": "jīn jiē",
+    "english": "Gold Rank"
+  },
+  "铂阶": {
+    "pinyin": "bó jiē",
+    "english": "Platinum Rank"
+  },
+  "天阶": {
+    "pinyin": "tiān jiē",
+    "english": "Heaven Rank"
+  },
+  "贤阶": {
+    "pinyin": "xián jiē",
+    "english": "Sage Rank"
+  },
+  "第二十六章": {
+    "pinyin": "dì èr shí liù zhāng",
+    "english": "Chapter 26"
+  },
+  "永恒君主的道": {
+    "pinyin": "yǒng héng jūn zhǔ de dào",
+    "english": "Way of the Eternal Monarch"
+  },
+  "绯红时之锋": {
+    "pinyin": "fēi hóng shí zhī fēng",
+    "english": "Crimson Edge of Time"
+  },
+  "神宝": {
+    "pinyin": "shén bǎo",
+    "english": "Divine Treasure"
+  },
+  "法外适应": {
+    "pinyin": "fǎ wài shì yìng",
+    "english": "Extra-Legal Adaptation"
+  },
+  "道": {
+    "pinyin": "dào",
+    "english": "The Way"
+  },
+  "神躯": {
+    "pinyin": "shén qū",
+    "english": "Divine Body"
+  },
+  "悟性": {
+    "pinyin": "wù xìng",
+    "english": "Insight"
+  },
+  "第一阶段": {
+    "pinyin": "dì yī jiē duàn",
+    "english": "Phase 1"
+  },
+  "弯曲凡性": {
+    "pinyin": "qū wěi fán xìng",
+    "english": "Bending Mortality"
+  },
+  "新手阶段": {
+    "pinyin": "xīn shǒu jiē duàn",
+    "english": "Novice Stage"
+  },
+  "埃森": {
+    "pinyin": "ā sēn",
+    "english": "Eisen"
+  },
+  "觉醒者": {
+    "pinyin": "jué xǐng zhě",
+    "english": "Awakened One"
+  },
+  "第二十七章": {
+    "pinyin": "dì èr shí qī zhāng",
+    "english": "Chapter 27"
+  },
+  "主人府邸": {
+    "pinyin": "zhǔ rén fǔ dǐ",
+    "english": "Master's Manor"
+  },
+  "首都": {
+    "pinyin": "shǒu dū",
+    "english": "Capital"
+  },
+  "威廉·凯撒": {
+    "pinyin": "wī lián · kǎi sà",
+    "english": "William Caesar"
+  },
+  "大陆": {
+    "pinyin": "dà lù",
+    "english": "Continental"
+  },
+  "空间戒指": {
+    "pinyin": "kōng jiān jiè zhi",
+    "english": "Spatial Ring"
+  },
+  "觉醒辅助药剂": {
+    "pinyin": "jué xǐng fǔ zhù yào jì",
+    "english": "Awakening Auxiliary Potion"
+  },
+  "水晶小瓶": {
+    "pinyin": "shuǐ jīng xiǎo píng",
+    "english": "Crystal Vial"
+  },
+  "念力传音": {
+    "pinyin": "niàn lì chuán yīn",
+    "english": "Telekinetic Voice"
+  },
+  "神识": {
+    "pinyin": "shén shí",
+    "english": "Divine Sense"
+  },
+  "雷击断空": {
+    "pinyin": "léi jī duàn kōng",
+    "english": "Thunder Strike Severing Void"
+  },
+  "暴风剑技": {
+    "pinyin": "bào fēng jiàn jì",
+    "english": "Storm Sword Technique"
+  },
+  "马库斯": {
+    "pinyin": "mǎ kù sī",
+    "english": "Marcus"
+  },
+  "羁绊者": {
+    "pinyin": "jī bàn zhě",
+    "english": "Bonded One"
+  },
+  "天之眷顾": {
+    "pinyin": "tiān zhī juàn gù",
+    "english": "Heaven's Favor"
+  },
+  "全能亲和": {
+    "pinyin": "quán néng qīn hé",
+    "english": "Omni-Affinity"
+  },
+  "传奇天赋": {
+    "pinyin": "chuán qí tiān fù",
+    "english": "Legendary Talent"
+  },
+  "x100 倍": {
+    "pinyin": "x bǎi bèi",
+    "english": "x100 Multiplier"
+  },
+  "Utsukushii": {
+    "pinyin": "wū shū kē shì",
+    "english": "Beautiful"
+  },
+  "第二十八章": {
+    "pinyin": "dì èr shí bā zhāng",
+    "english": "Chapter 28"
+  },
+  "宇宙挚爱": {
+    "pinyin": "yǔ zhòu zhì ài",
+    "english": "Cosmic Love"
+  },
+  "上品天赋": {
+    "pinyin": "shàng pǐn tiān fù",
+    "english": "Upper Grade Talent"
+  },
+  "本源亲和": {
+    "pinyin": "běn yuán qīn hé",
+    "english": "Origin Affinity"
+  },
+  "天选之子": {
+    "pinyin": "tiān xuǎn zhī zǐ",
+    "english": "Chosen One"
+  },
+  "传奇": {
+    "pinyin": "chuán qí",
+    "english": "Legendary"
+  },
+  "加速成长": {
+    "pinyin": "jiā sù chéng zhǎng",
+    "english": "Accelerated Growth"
+  },
+  "凡人的十倍": {
+    "pinyin": "fán rén de shí bèi",
+    "english": "Ten Times a Mortal"
+  },
+  "能量吸收": {
+    "pinyin": "néng liàng xī shōu",
+    "english": "Energy Absorption"
+  },
+  "提炼": {
+    "pinyin": "tí liàn",
+    "english": "Refining"
+  },
+  "领悟": {
+    "pinyin": "lǐng wù",
+    "english": "Comprehension"
+  },
+  "瓶颈消除": {
+    "pinyin": "píng jǐng xiāo chú",
+    "english": "Bottleneck Elimination"
+  },
+  "天界再生": {
+    "pinyin": "tiān jiè zài shēng",
+    "english": "Heavenly Regeneration"
+  },
+  "无匹眷顾": {
+    "pinyin": "wú pǐ juàn gù",
+    "english": "Peerless Favor"
+  },
+  "界生压制": {
+    "pinyin": "jiè shēng yā zhì",
+    "english": "World-Born Suppression"
+  },
+  "天选概率": {
+    "pinyin": "tiān xuǎn gài lǜ",
+    "english": "Chosen Probability"
+  },
+  "天界威仪": {
+    "pinyin": "tiān jiè wēi yí",
+    "english": "Heavenly Dignity"
+  },
+  "天界赏赐": {
+    "pinyin": "tiān jiè shǎng cì",
+    "english": "Heavenly Reward"
+  },
+  "宇宙是你的挚爱": {
+    "pinyin": "yǔ zhòu shì nǐ de zhì ài",
+    "english": "The Universe is Your Love"
+  },
+  "宇宙每秒钟都在观察你": {
+    "pinyin": "yǔ zhòu měi miǎo zhōng dōu zài guān chá nǐ",
+    "english": "The Universe Observes You Every Second"
+  },
+  "宇宙对你痴迷不已": {
+    "pinyin": "yǔ zhòu duì nǐ chī mí bù yǐ",
+    "english": "The Universe is Obsessed with You"
+  },
+  "宇宙说：我爱你，亲爱的": {
+    "pinyin": "yǔ zhòu shuō: wǒ ài nǐ, qīn ài de",
+    "english": "The Universe Says: I Love You, My Dear"
+  },
+  "宇宙挚爱（至尊）": {
+    "pinyin": "yǔ zhòu zhì ài (zhì zūn)",
+    "english": "Cosmic Love (Supreme)"
+  },
+  "100倍奖励系统": {
+    "pinyin": "bǎi bèi jiǎng lì xì tǒng",
+    "english": "100x Reward System"
+  },
+  "宇宙的原点": {
+    "pinyin": "yǔ zhòu de yuán diǎn",
+    "english": "The Origin of the Universe"
+  },
+  "阿瑞斯": {
+    "pinyin": "ā ruì sī",
+    "english": "Ares"
+  },
+  "位面": {
+    "pinyin": "wèi miàn",
+    "english": "Plane"
+  },
+  "维度": {
+    "pinyin": "wéi dù",
+    "english": "Dimension"
+  },
+  "纯净的白色能量云": {
+    "pinyin": "chún jìng de bái sè néng liàng yún",
+    "english": "Pure White Energy Cloud"
+  },
+  "女性人形": {
+    "pinyin": "nǚ xìng rén xíng",
+    "english": "Female Humanoid"
+  },
+  "我找到你了": {
+    "pinyin": "wǒ zhǎo dào nǐ le",
+    "english": "I Found You"
+  },
+  "第二十九章": {
+    "pinyin": "dì èr shí jiǔ zhāng",
+    "english": "Chapter 29"
+  },
+  "学院推荐": {
+    "pinyin": "xué yuàn tuī jiàn",
+    "english": "Academy Recommendation"
+  },
+  "全元素亲和": {
+    "pinyin": "quán yuán sù qīn hé",
+    "english": "Omni Affinity"
+  },
+  "发出推荐": {
+    "pinyin": "fā chū tuī jiàn",
+    "english": "Issue Recommendation"
+  },
+  "魔力检测": {
+    "pinyin": "mó lì jiǎn cè",
+    "english": "Magic Power Detection"
+  },
+  "前一百": {
+    "pinyin": "qián yī bǎi",
+    "english": "Top Hundred"
+  },
+  "治愈药水": {
+    "pinyin": "zhì yù yào shuǐ",
+    "english": "Healing Potion"
+  },
+  "耐力药水": {
+    "pinyin": "nài lì yào shuǐ",
+    "english": "Endurance Potion"
+  },
+  "第三十章": {
+    "pinyin": "dì sān shí zhāng",
+    "english": "Chapter 30"
+  },
+  "三愿": {
+    "pinyin": "sān yuàn",
+    "english": "Three Wishes"
+  },
+  "永恒的宿敌": {
+    "pinyin": "yǒng héng de xiù dí",
+    "english": "Eternal Rivals"
+  },
+  "剑之异变": {
+    "pinyin": "jiàn zhī yì biàn",
+    "english": "Sword Mutation"
+  },
+  "F 级": {
+    "pinyin": "F jí",
+    "english": "F-Rank"
+  },
+  "深渊节点": {
+    "pinyin": "shēn yuān jié diǎn",
+    "english": "Abyss Node"
+  },
+  "神日之躯": {
+    "pinyin": "shén rì zhī qū",
+    "english": "Divine Sun Body"
+  },
+  "无律适应": {
+    "pinyin": "wú lǜ shì yìng",
+    "english": "Lawless Adaptation"
+  },
+  "第三十一章": {
+    "pinyin": "dì sān shí yī zhāng",
+    "english": "Chapter 31"
+  },
+  "三愿与永恒的宿敌": {
+    "pinyin": "sān yuàn yǔ yǒng héng de xiù dí",
+    "english": "Three Wishes and the Eternal Rival"
+  },
+  "帝国都城": {
+    "pinyin": "dì guó dū chéng",
+    "english": "Imperial Capital"
+  },
+  "神阶技法": {
+    "pinyin": "shén jiē jì fǎ",
+    "english": "Divine Tier Technique"
+  },
+  "暴雷剑技": {
+    "pinyin": "bào léi jiàn jì",
+    "english": "Thunder Sword Technique"
+  },
+  "圣阶技法": {
+    "pinyin": "shèng jiē jì fǎ",
+    "english": "Saint Tier Technique"
+  },
+  "光元素": {
+    "pinyin": "guāng yuán sù",
+    "english": "Light Element"
+  },
+  "道友": {
+    "pinyin": "dào yǒu",
+    "english": "Daoist Friend (Web Novel Address)"
+  },
+  "网络小说之神": {
+    "pinyin": "wǎng luò xiǎo shuō zhī shén",
+    "english": "God of Web Novels"
+  },
+  "第三十二章": {
+    "pinyin": "dì sān shí èr zhāng",
+    "english": "Chapter 32"
+  },
+  "西行之路": {
+    "pinyin": "xī xíng zhī lù",
+    "english": "The Western Journey"
+  },
+  "储物戒": {
+    "pinyin": "chǔ wù jiè",
+    "english": "Storage Ring"
+  },
+  "耐力恢复药丸": {
+    "pinyin": "nài lì huī fù yào wán",
+    "english": "Stamina Recovery Pill"
+  },
+  "法力恢复资源": {
+    "pinyin": "fǎ lì huī fù zī yuán",
+    "english": "Mana Recovery Resource"
+  },
+  "恢复类法宝": {
+    "pinyin": "huī fù lèi fǎ bǎo",
+    "english": "Restoration-type Artifact"
+  },
+  "克劳斯领主": {
+    "pinyin": "kè lǒus zhǔ",
+    "english": "Lord Klaus"
+  },
+  "深渊节点入场令牌": {
+    "pinyin": "shēn yuān jié diǎn rù chǎng táng pèi",
+    "english": "Abyss Node Entry Token"
+  },
+  "生物机械转化球": {
+    "pinyin": "shēng wù jī xiè zhuǎn huà qiú",
+    "english": "Bio-Mechanical Transformation Sphere"
+  },
+  "机器种族": {
+    "pinyin": "jī qì zǒng zhú",
+    "english": "Machine Race"
+  },
+  "多元宇宙": {
+    "pinyin": "duō yuán yǔ zhòu",
+    "english": "Multiverse"
+  },
+  "蓝图": {
+    "pinyin": "lán tú",
+    "english": "Blueprint"
+  },
+  "能源": {
+    "pinyin": "néng yuán",
+    "english": "Energy Source"
+  },
+  "生物机械构造体": {
+    "pinyin": "shēng wù jī xiè gòng zào tǐ",
+    "english": "Bio-Mechanical Construct"
+  },
+  "怪物核心": {
+    "pinyin": "guài wù hé xīn",
+    "english": "Monster Core"
+  },
+  "aura": {
+    "pinyin": "ào rǔ",
+    "english": "Aura"
+  },
+  "生物机械陆兽蓝图包": {
+    "pinyin": "shēng wù jī xiè lù shòu lán tú bāo",
+    "english": "Bio-Mechanical Land Beast Blueprint Pack"
+  },
+  "生物机械军车蓝图包": {
+    "pinyin": "shēng wù jī xiè jūn chē lán tú bāo",
+    "english": "Bio-Mechanical Military Vehicle Blueprint Pack"
+  },
+  "生物机械自动武装载具蓝图包": {
+    "pinyin": "shēng wù jī xiè zì dòng wǔ zhuāng zài jù lán tú bāo",
+    "english": "Bio-Mechanical Auto-Weaponized Vehicle Blueprint Pack"
+  },
+  "schematics": {
+    "pinyin": "chēng tuó",
+    "english": "Schematics"
+  },
+  "热带": {
+    "pinyin": "rè dài",
+    "english": "Tropical"
+  },
+  "沼泽森林": {
+    "pinyin": "zhǎo zé sēn lín",
+    "english": "Swamp Forest"
+  },
+  "SATD-V": {
+    "pinyin": "SATD-V",
+    "english": "SATD-V"
+  },
+  "超级两栖泰坦毁灭者": {
+    "pinyin": "chāo jí liǎng qī tài dān huǐ miè zhě",
+    "english": "Super Amphibious Titan Destroyer"
+  },
+  "第五代": {
+    "pinyin": "dì wǔ dài",
+    "english": "Fifth Generation"
+  },
+  "第 33 章": {
+    "pinyin": "dì sān shí sān zhāng",
+    "english": "Chapter 33"
+  },
+  "西行记": {
+    "pinyin": "xī xíng jì",
+    "english": "Journey to the West"
+  },
+  "瑞德莱帝国": {
+    "pinyin": "ruì dé lái dì guó",
+    "english": "Reidley Empire"
+  },
+  "C 阶": {
+    "pinyin": "C jiē",
+    "english": "C-Rank"
+  },
+  "银狮": {
+    "pinyin": "yín shī",
+    "english": "Silver Lion"
+  },
+  "巴比伦帝国": {
+    "pinyin": "bā bǐ lún dì guó",
+    "english": "Babylon Empire"
+  },
+  "SATD": {
+    "pinyin": "SATD",
+    "english": "Semi-Autonomous Tactical Device"
+  },
+  "奴主": {
+    "pinyin": "nú zhǔ",
+    "english": "Master-Slave"
+  },
+  "demonic": {
+    "pinyin": "demonic",
+    "english": "Demonic"
+  },
+  "S 阶": {
+    "pinyin": "S jiē",
+    "english": "S-Rank"
+  },
+  "灵主": {
+    "pinyin": "líng zhǔ",
+    "english": "Spirit Master"
+  },
+  "A 阶": {
+    "pinyin": "A jiē",
+    "english": "A-Rank"
+  },
+  "末日终焉": {
+    "pinyin": "mù rì zhōng yān",
+    "english": "Doomsday"
+  },
+  "协议": {
+    "pinyin": "xié yì",
+    "english": "Protocol"
+  },
+  "第三十四章": {
+    "pinyin": "dì sān shí sì zhāng",
+    "english": "Chapter 34"
+  },
+  "西行漫记": {
+    "pinyin": "xī xíng màn jì",
+    "english": "Westward Journey"
+  },
+  "末日终焉协议": {
+    "pinyin": "mò rì zhōng yān xié yì",
+    "english": "Doomsday Protocol"
+  },
+  "第四序列": {
+    "pinyin": "dì sì xù liè",
+    "english": "Fourth Sequence"
+  },
+  "灵能冲击波": {
+    "pinyin": "líng néng chōng jī bō",
+    "english": "Psionic Shockwave"
+  },
+  "魔力束缚镣铐": {
+    "pinyin": "mó lì shù fù liào kào",
+    "english": "Magic Binding Shackles"
+  },
+  "灵能抑制协议": {
+    "pinyin": "líng néng yì zhì xié yì",
+    "english": "Psionic Suppression Protocol"
+  },
+  "部落聚落": {
+    "pinyin": "bù luò jù luò",
+    "english": "Tribal Settlement"
+  },
+  "魔核": {
+    "pinyin": "mó hé",
+    "english": "Magic Core"
+  },
+  "魔气": {
+    "pinyin": "mó qì",
+    "english": "Magic Qi"
+  },
+  "恢复药水": {
+    "pinyin": "huī fù yào shuǐ",
+    "english": "Restoration Potion"
+  },
+  "陨落神狱": {
+    "pinyin": "yǔn luò shén yù",
+    "english": "Fallen God Prison"
+  },
+  "黑藤": {
+    "pinyin": "hēi téng",
+    "english": "Black Vine"
+  },
+  "生物机械变形球": {
+    "pinyin": "shēng wù jī xiè biàn xíng qiú",
+    "english": "Bio-Mechanical Morphing Sphere"
+  },
+  "库存": {
+    "pinyin": "kù cún",
+    "english": "Inventory"
+  },
+  "恢复类物品": {
+    "pinyin": "huī fù lèi wù pǐn",
+    "english": "Restoration Items"
+  },
+  "第三十五章": {
+    "pinyin": "dì sān shí wǔ zhāng",
+    "english": "Chapter 35"
+  },
+  "埃塞": {
+    "pinyin": "āi sài",
+    "english": "Aesae"
+  },
+  "风暴剑": {
+    "pinyin": "fēng bào jiàn",
+    "english": "Storm Sword"
+  },
+  "猎犬": {
+    "pinyin": "liè quǎn",
+    "english": "Hounds"
+  },
+  "里弗戴尔": {
+    "pinyin": "lǐ fú dá ěr",
+    "english": "Riverdale"
+  },
+  "南希": {
+    "pinyin": "nán xī",
+    "english": "Nancy"
+  },
+  "陨落神明的囚笼": {
+    "pinyin": "yǔn luò shén míng de qiú lóng",
+    "english": "Cage of the Fallen God"
+  },
+  "星焰战车": {
+    "pinyin": "xīng yàn zhē chē",
+    "english": "Star Flame Chariot"
+  },
+  "第三十六章": {
+    "pinyin": "dì sān shí liù zhāng",
+    "english": "Chapter 36"
+  },
+  "时之锋": {
+    "pinyin": "shí zhī fēng",
+    "english": "Aeon Blade"
+  },
+  "神阶天崩神剑术": {
+    "pinyin": "shén jiē tiān bēng shén jiàn shù",
+    "english": "Divine Rank Sky-Collapse Divine Sword Art"
+  },
+  "特性": {
+    "pinyin": "tè xìng",
+    "english": "Trait"
+  },
+  "隐形": {
+    "pinyin": "yǐn xíng",
+    "english": "Invisibility"
+  },
+  "地底居民": {
+    "pinyin": "dì dǐ jū mín",
+    "english": "Subterranean Dwellers"
+  },
+  "地底能量": {
+    "pinyin": "dì dǐ néng liàng",
+    "english": "Subterranean Energy"
+  },
+  "F+ 阶": {
+    "pinyin": "F jiē",
+    "english": "Rank F+"
+  },
+  "神性感知": {
+    "pinyin": "shén xìng gǎn zhī",
+    "english": "Divine Perception"
+  },
+  "载具": {
+    "pinyin": "zài jù",
+    "english": "Vessel"
+  },
+  "地底核心": {
+    "pinyin": "dì dǐ hé xīn",
+    "english": "Subterranean Core"
+  },
+  "状态面板": {
+    "pinyin": "zhuàng tài miàn bǎn",
+    "english": "Status Panel"
+  },
+  "法力": {
+    "pinyin": "fǎ lì",
+    "english": "Mana"
+  },
+  "天崩": {
+    "pinyin": "tiān bēng",
+    "english": "Sky-Collapse"
+  },
+  "神剑术": {
+    "pinyin": "shén jiàn shù",
+    "english": "Divine Sword Art"
+  },
+  "断绝": {
+    "pinyin": "duàn jué",
+    "english": "Severance"
+  },
+  "起源": {
+    "pinyin": "qǐ yuán",
+    "english": "Origin"
+  },
+  "断": {
+    "pinyin": "duàn",
+    "english": "Cut"
+  },
+  "绝": {
+    "pinyin": "jué",
+    "english": "End"
+  },
+  "第一": {
+    "pinyin": "dì yī",
+    "english": "First"
+  },
+  "式": {
+    "pinyin": "shì",
+    "english": "Form"
+  },
+  "时": {
+    "pinyin": "shí",
+    "english": "Time"
+  },
+  "之": {
+    "pinyin": "zhī",
+    "english": "Of"
+  },
+  "锋": {
+    "pinyin": "fēng",
+    "english": "Blade"
+  },
+  "获得": {
+    "pinyin": "huò dé",
+    "english": "Obtain"
+  },
+  "激活": {
+    "pinyin": "jī huó",
+    "english": "Activate"
+  },
+  "心念": {
+    "pinyin": "xīn niàn",
+    "english": "Mental Conception"
+  },
+  "地底": {
+    "pinyin": "dì dǐ",
+    "english": "Subterranean"
+  },
+  "居民": {
+    "pinyin": "jū mín",
+    "english": "Dwellers"
+  },
+  "核心": {
+    "pinyin": "hé xīn",
+    "english": "Core"
+  },
+  "狩猎": {
+    "pinyin": "shòu liè",
+    "english": "Hunt"
+  },
+  "昂贵": {
+    "pinyin": "áng guì",
+    "english": "Expensive"
+  },
+  "状态": {
+    "pinyin": "zhuàng tài",
+    "english": "Status"
+  },
+  "面板": {
+    "pinyin": "miàn bǎn",
+    "english": "Panel"
+  },
+  "一行": {
+    "pinyin": "yī háng",
+    "english": "A Line"
+  },
+  "文字": {
+    "pinyin": "wén zì",
+    "english": "Text"
+  },
+  "微微": {
+    "pinyin": "wēi wēi",
+    "english": "Slightly"
+  },
+  "发亮": {
+    "pinyin": "fā liàng",
+    "english": "Glowing"
+  },
+  "邂逅": {
+    "pinyin": "xiè hòu",
+    "english": "Encounter"
+  },
+  "神性": {
+    "pinyin": "shén xìng",
+    "english": "Divinity"
+  },
+  "形成": {
+    "pinyin": "xíng chéng",
+    "english": "Formed"
+  },
+  "扰乱": {
+    "pinyin": "rǎo luàn",
+    "english": "Disturb"
+  },
+  "生命": {
+    "pinyin": "shēng mìng",
+    "english": "Life"
+  },
+  "滋养": {
+    "pinyin": "zī yǎng",
+    "english": "Nourish"
+  },
+  "腐朽": {
+    "pinyin": "fǔ xiǔ",
+    "english": "Decay"
+  },
+  "立刻": {
+    "pinyin": "lì kè",
+    "english": "Immediately"
+  },
+  "察觉": {
+    "pinyin": "chá jué",
+    "english": "Perceive"
+  },
+  "扑向": {
+    "pinyin": "pū xiàng",
+    "english": "Pounce Upon"
+  },
+  "鲜肉": {
+    "pinyin": "xiān ròu",
+    "english": "Fresh Meat"
+  },
+  "释放": {
+    "pinyin": "shì fàng",
+    "english": "Release"
+  },
+  "狂躁": {
+    "pinyin": "kuáng zào",
+    "english": "Frenzied"
+  },
+  "非但": {
+    "pinyin": "fēi dàn",
+    "english": "Not Only"
+  },
+  "缓解": {
+    "pinyin": "huǎn jiě",
+    "english": "Alleviate"
+  },
+  "愈发": {
+    "pinyin": "yù fā",
+    "english": "Increasingly"
+  },
+  "强烈": {
+    "pinyin": "qiáng liè",
+    "english": "Intense"
+  },
+  "笨蛋": {
+    "pinyin": "bèn dàn",
+    "english": "Idiot"
+  },
+  "竟然": {
+    "pinyin": "jìng rán",
+    "english": "Surprisingly"
+  },
+  "知道": {
+    "pinyin": "zhī dào",
+    "english": "Know"
+  },
+  "吃掉": {
+    "pinyin": "chī diào",
+    "english": "Devour"
+  },
+  "情况": {
+    "pinyin": "qíng kuàng",
+    "english": "Situation"
+  },
+  "变得": {
+    "pinyin": "biàn dé",
+    "english": "Become"
+  },
+  "更糟": {
+    "pinyin": "gèng zāo",
+    "english": "Worse"
+  },
+  "没有": {
+    "pinyin": "méi yǒu",
+    "english": "Without"
+  },
+  "理智": {
+    "pinyin": "lǐ zhì",
+    "english": "Reason"
+  },
+  "生物": {
+    "pinyin": "shēng wù",
+    "english": "Creature"
+  },
+  "被困": {
+    "pinyin": "bèi kùn",
+    "english": "Trapped"
+  },
+  "循环": {
+    "pinyin": "xún huán",
+    "english": "Cycle"
+  },
+  "吞噬": {
+    "pinyin": "tūn shì",
+    "english": "Devour"
+  },
+  "满足": {
+    "pinyin": "mǎn zú",
+    "english": "Satisfy"
+  },
+  "加深": {
+    "pinyin": "jiā shēn",
+    "english": "Deepen"
+  },
+  "痛苦": {
+    "pinyin": "tòng kǔ",
+    "english": "Pain"
+  },
+  "用好": {
+    "pinyin": "yòng hǎo",
+    "english": "Utilize Well"
+  },
+  "废物": {
+    "pinyin": "fèi wù",
+    "english": "Waste"
+  },
+  "施展": {
+    "pinyin": "shī zhǎn",
+    "english": "Unfold"
+  },
+  "法术": {
+    "pinyin": "fǎ shù",
+    "english": "Spell"
+  },
+  "准备": {
+    "pinyin": "zhǔn bèi",
+    "english": "Ready"
+  },
+  "作为": {
+    "pinyin": "zuò wéi",
+    "english": "As"
+  },
+  "需要": {
+    "pinyin": "xū yào",
+    "english": "Need"
+  },
+  "自己": {
+    "pinyin": "zì jǐ",
+    "english": "Himself"
+  },
+  "去": {
+    "pinyin": "qù",
+    "english": "Go"
+  },
+  "准确": {
+    "pinyin": "zhǔn què",
+    "english": "Accurate"
+  },
+  "说是": {
+    "pinyin": "shuō shì",
+    "english": "Said To Be"
+  },
+  "向后": {
+    "pinyin": "xiàng hòu",
+    "english": "Backward"
+  },
+  "靠": {
+    "pinyin": "kào",
+    "english": "Lean"
+  },
+  "仰望": {
+    "pinyin": "ǎng wàng",
+    "english": "Gaze Upward"
+  },
+  "填满": {
+    "pinyin": "tián mǎn",
+    "english": "Filled"
+  },
+  "树冠": {
+    "pinyin": "shù guān",
+    "english": "Canopy"
+  },
+  "顺风顺水": {
+    "pinyin": "shùn fēng shuǐ shuǐ",
+    "english": "Smooth Sailing"
+  },
+  "第三十八章": {
+    "pinyin": "dì sān shí bā zhāng",
+    "english": "Chapter 38"
+  },
+  "自由的代价（下）": {
+    "pinyin": "zì yóu de dài jià (xià)",
+    "english": "The Price of Freedom (Part 2)"
+  },
+  "苍穹": {
+    "pinyin": "cāng qióng",
+    "english": "Vast Sky"
+  },
+  "圣能": {
+    "pinyin": "shèng néng",
+    "english": "Saint Energy"
+  },
+  "神威": {
+    "pinyin": "shén wēi",
+    "english": "Divine Might"
+  },
+  "寰宇": {
+    "pinyin": "huán yǔ",
+    "english": "Universe"
+  },
+  "圣光": {
+    "pinyin": "shèng guāng",
+    "english": "Holy Light"
+  },
+  "塔玛西雅": {
+    "pinyin": "tǎ mǎ xī yà",
+    "english": "Tamasiya"
+  },
+  "光之阵营": {
+    "pinyin": "guāng zhī zhēng yíng",
+    "english": "Light Faction"
+  },
+  "神明": {
+    "pinyin": "shén míng",
+    "english": "Deity"
+  },
+  "天界": {
+    "pinyin": "tiān jiè",
+    "english": "Heavens"
+  },
+  "神位": {
+    "pinyin": "shén wèi",
+    "english": "Divine Seat"
+  },
+  "法杖": {
+    "pinyin": "fǎ zhàng",
+    "english": "Staff"
+  },
+  "禁绝之力": {
+    "pinyin": "jìn jué zhī lì",
+    "english": "Forbidden Power"
+  },
+  "魔能": {
+    "pinyin": "mó néng",
+    "english": "Demon Energy"
+  },
+  "永夜主宰": {
+    "pinyin": "yǒng yè zhǔ zǎi",
+    "english": "Ruler of Eternal Night"
+  },
+  "神律": {
+    "pinyin": "shén lǜ",
+    "english": "Law of Gods"
+  },
+  "圣元素": {
+    "pinyin": "shèng yuán sù",
+    "english": "Saint Element"
+  },
+  "神格": {
+    "pinyin": "shén gé",
+    "english": "Divine Core"
+  },
+  "新神": {
+    "pinyin": "xīn shén",
+    "english": "New Deity"
+  },
+  "光矛": {
+    "pinyin": "guāng máo",
+    "english": "Light Spear"
+  },
+  "法印": {
+    "pinyin": "fǎ yìn",
+    "english": "Spell Seal"
+  },
+  "陨落神域": {
+    "pinyin": "yǔn luò shén yù",
+    "english": "Fallen Divine Realm"
+  },
+  "冥河能量": {
+    "pinyin": "míng hé néng liàng",
+    "english": "River Styx Energy"
+  },
+  "黑暗面纱": {
+    "pinyin": "hēi àn miàn shā",
+    "english": "Dark Veil"
+  },
+  "古庙": {
+    "pinyin": "gǔ miào",
+    "english": "Ancient Temple"
+  },
+  "F 阶": {
+    "pinyin": "F jiē",
+    "english": "F-Rank"
+  },
+  "密室": {
+    "pinyin": "mì shì",
+    "english": "Chamber"
+  },
+  "焕新": {
+    "pinyin": "huàn xīn",
+    "english": "Rejuvenate"
+  },
+  "第三十九章": {
+    "pinyin": "dì sān shí jiǔ zhāng",
+    "english": "Chapter 39"
+  },
+  "塔玛夏": {
+    "pinyin": "tǎ mǎ xià",
+    "english": "Tamasha"
+  },
+  "自我": {
+    "pinyin": "zì wǒ",
+    "english": "Self"
+  },
+  "法则": {
+    "pinyin": "fǎ zé",
+    "english": "Law / Principle"
+  },
+  "星辉之火": {
+    "pinyin": "xīng huī zhī huǒ",
+    "english": "Starlight Flame"
+  },
+  "权柄": {
+    "pinyin": "quán bǐng",
+    "english": "Authority"
+  },
+  "凡人之躯": {
+    "pinyin": "fán rén zhī qū",
+    "english": "Mortal Body"
+  },
+  "特殊体质": {
+    "pinyin": "tè shū tǐ zhì",
+    "english": "Special Constitution"
+  },
+  "前辈": {
+    "pinyin": "qián bèi",
+    "english": "Senior / Elder"
+  },
+  "铁链": {
+    "pinyin": "tiě liàn",
+    "english": "Iron Chain"
+  },
+  "弟子": {
+    "pinyin": "dì zǐ",
+    "english": "Disciple"
+  },
+  "封印": {
+    "pinyin": "fēng yìn",
+    "english": "Seal"
+  },
+  "树根": {
+    "pinyin": "shù gēn",
+    "english": "Tree Root"
+  },
+  "金色热光": {
+    "pinyin": "jīn sè rè guāng",
+    "english": "Golden Heat Light"
+  },
+  "第四十章": {
+    "pinyin": "dì sì shí zhāng",
+    "english": "Chapter 40"
+  },
+  "星焰主权": {
+    "pinyin": "xīng yàn zhǔ quán",
+    "english": "Star Flame Sovereignty"
+  },
+  "幽暗能量": {
+    "pinyin": "yōu àn néng liàng",
+    "english": "Nether Energy"
+  },
+  "永夜的女皇": {
+    "pinyin": "yǒng yè de nǚ huáng",
+    "english": "Empress of Eternal Night"
+  },
+  "识海": {
+    "pinyin": "shí hǎi",
+    "english": "Sea of Consciousness"
+  },
+  "抱一": {
+    "pinyin": "bào yī",
+    "english": "Master Bao Yi"
+  },
+  "五息": {
+    "pinyin": "wǔ xī",
+    "english": "Five Breaths"
+  }
+}

@@ -14,6 +14,9 @@ let llamaModel = null;
 let llamaContext = null;
 let LlamaChatSessionCls = null;
 
+let globalSequence = null;
+let scanSession = null;
+
 async function initLlama() {
     console.log("Initializing local GGUF model via node-llama-cpp...");
     const llama = await import("node-llama-cpp");
@@ -67,18 +70,20 @@ IMPORTANT:
 ]`;
 
 async function extractTerms(chunkText) {
-    const sequence = llamaContext.getSequence();
-    const session = new LlamaChatSessionCls({
-        contextSequence: sequence,
-        systemPrompt: SYSTEM_PROMPT
-    });
+    if (!scanSession) {
+        globalSequence = llamaContext.getSequence();
+        scanSession = new LlamaChatSessionCls({
+            contextSequence: globalSequence,
+            systemPrompt: SYSTEM_PROMPT
+        });
+    }
 
     try {
+        globalSequence.clearHistory();
+        scanSession.resetChatHistory();
         const prompt = `Extract the domain-specific terms from the following text:\n\n${chunkText}`;
-        const result = await session.prompt(prompt, { temperature: 0.1 });
+        const result = await scanSession.prompt(prompt, { temperature: 0.1 });
         
-        sequence.dispose();
-
         // Extract JSON using Regex in case model hallucinates greetings
         const jsonMatch = result.match(/\[\s*\{[\s\S]*\}\s*\]/);
         if (jsonMatch) {
@@ -91,7 +96,6 @@ async function extractTerms(chunkText) {
         return [];
     } catch (e) {
         console.error("Failed to parse JSON from AI:", e.message);
-        try { sequence.dispose(); } catch(err){}
         return [];
     }
 }
@@ -156,6 +160,7 @@ async function runTest() {
     console.log(`\n✅ Extraction complete! Saved ${Object.keys(customDict).length} total terms to test-dict.json`);
     
     try {
+        if (globalSequence) globalSequence.dispose();
         llamaContext.dispose();
         llamaModel.dispose();
     } catch(e){}
