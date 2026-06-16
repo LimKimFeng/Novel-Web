@@ -1,6 +1,31 @@
 const fs = require('fs-extra');
 const path = require('path');
 const nodejieba = require('nodejieba');
+const { execSync } = require('child_process');
+
+function getTemps() {
+    let cpuTemp = 0;
+    try {
+        const tempsStr = execSync('cat /sys/class/thermal/thermal_zone*/temp', { encoding: 'utf8', stdio: 'pipe' });
+        const temps = tempsStr.split('\\n');
+        for (const t of temps) {
+            if (!t.trim()) continue;
+            const tempVal = parseInt(t.trim()) / 1000;
+            // Filter out unrealistic values
+            if (tempVal > cpuTemp && tempVal < 150) {
+                cpuTemp = tempVal;
+            }
+        }
+    } catch (e) {}
+
+    let gpuTemp = 0;
+    try {
+        const nvid = execSync('nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader', { encoding: 'utf8', stdio: 'pipe' }).trim();
+        gpuTemp = parseInt(nvid);
+    } catch (e) {}
+    
+    return { cpu: cpuTemp, gpu: gpuTemp };
+}
 const util = require('util');
 const execAsync = util.promisify(require('child_process').exec);
 
@@ -32,7 +57,7 @@ async function initLlama() {
     }
     
     // Dikembalikan ke 8192 sesuai permintaan
-    llamaContext = await llamaModel.createContext({ contextSize: 8192 });
+    llamaContext = await llamaModel.createContext({ contextSize: 4096 });
 }
 
 const NOVEL_DIR = path.join(__dirname, 'Novel');
@@ -108,14 +133,6 @@ async function translateText(text) {
         return translated.trim();
     } catch (e) {
         console.error('      Translation error:', e.message);
-        
-        if (llamaContext) {
-            try { llamaContext.dispose(); } catch(err) {}
-            llamaContext = null;
-            globalSequence = null;
-            translateSession = null;
-            scanSession = null;
-        }
         return null;
     }
 }
@@ -147,13 +164,6 @@ async function extractTerms(chunkText) {
         }
     } catch (e) {
         console.error('      Scanning error:', e.message);
-        if (llamaContext) {
-            try { llamaContext.dispose(); } catch(err) {}
-            llamaContext = null;
-            globalSequence = null;
-            translateSession = null;
-            scanSession = null;
-        }
         return [];
     }
 }
@@ -191,12 +201,14 @@ async function getSystemTemperature() {
         const temp = parseInt(stdout.trim());
         if (!isNaN(temp)) { gpuTemp = temp; }
     } catch (e) { }
+
     return { cpu: cpuTemp, gpu: gpuTemp };
 }
 
-const HOT_THRESHOLD = 88; // Batas atas (panas)
-const COOL_THRESHOLD = 70; // Batas bawah (dingin menengah)
-
+const HOT_CPU = 80;
+const HOT_GPU = 70;
+const COOL_CPU = 60;
+const COOL_GPU = 55;
 async function checkCoolingSystem() {
     let temps = await getSystemTemperature();
     
@@ -207,19 +219,19 @@ async function checkCoolingSystem() {
         return;
     }
     
-    if (temps.cpu >= HOT_THRESHOLD || temps.gpu >= HOT_THRESHOLD) {
-        console.log(`\n  ⚠️ Sistem Terlalu Panas! (CPU: ${temps.cpu.toFixed(1)}°C | GPU: ${temps.gpu}°C)`);
-        console.log(`  ❄️ Mengaktifkan Smart Cooling... Menunggu suhu turun hingga di bawah ${COOL_THRESHOLD}°C`);
+    if (temps.cpu >= HOT_CPU || temps.gpu >= HOT_GPU) {
+        console.log(`\n  ⚠️ Suhu mesin terlalu panas: (CPU: ${temps.cpu.toFixed(1)}°C | GPU: ${temps.gpu}°C)`);
+        console.log(`  ❄️ Smart Cooling Aktif: Mendinginkan hingga CPU < ${COOL_CPU}°C dan GPU < ${COOL_GPU}°C...`);
         
-        while (temps.cpu > COOL_THRESHOLD || temps.gpu > COOL_THRESHOLD) {
+        while (temps.cpu >= COOL_CPU || temps.gpu >= COOL_GPU) {
             await new Promise(resolve => setTimeout(resolve, 5000)); // Cek setiap 5 detik
             temps = await getSystemTemperature();
             process.stdout.write(`\r  🔄 Pendingin aktif... Suhu saat ini -> CPU: ${temps.cpu.toFixed(1)}°C | GPU: ${temps.gpu}°C   `);
         }
-        console.log(`\n  ✅ Suhu kembali aman! Melanjutkan proses...\n`);
+        console.log(`\n  ✅ Suhu sudah turun (CPU < ${COOL_CPU}°C & GPU < ${COOL_GPU}°C)! Melanjutkan proses...\n`);
     } else {
         console.log(`  - Status Suhu: CPU ${temps.cpu.toFixed(1)}°C | GPU ${temps.gpu}°C (Aman)`);
-        await new Promise(r => setTimeout(r, 2000));
+        await new Promise(r => setTimeout(r, 2000)); // Jeda 2 detik standar
     }
 }
 
@@ -338,16 +350,6 @@ async function buildSite(selectedNovels) {
                 
                 // Smart Cooling System
                 await checkCoolingSystem();
-                
-                // Proactive Memory Refresh
-                // Membersihkan "sampah" memori VRAM setiap selesai 1 chapter
-                if (llamaContext) {
-                    try { llamaContext.dispose(); } catch(err) {}
-                    llamaContext = null;
-                    globalSequence = null;
-                    translateSession = null;
-                    scanSession = null;
-                }
             }
         }
 

@@ -1,0 +1,20 @@
+[
+    {
+        "domain": ".syosetu.org",
+        "expirationDate": 1816188536.421483,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "ETURAN",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "value": "404785_1"
+    },
+    {
+        "domain": ".syosetu.org",
+        "name": "over18",
+        "value": "yes",
+        "path": "/"
+    }
+]
