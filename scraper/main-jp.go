@@ -216,7 +216,7 @@ func main() {
 		safeTitle = strings.ReplaceAll(safeTitle, "?", "")
 		safeTitle = strings.ReplaceAll(safeTitle, "\"", "")
 
-		filename := fmt.Sprintf("Chapter %d. %s.txt", chapterCount, safeTitle)
+		filename := fmt.Sprintf("Chapter %d.txt", chapterCount)
 		filePath := filepath.Join(rawDir, filename)
 
 		err = os.WriteFile(filePath, []byte(title+"\n\n"+content), 0644)
