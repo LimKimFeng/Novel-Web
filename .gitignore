@@ -2,3 +2,5 @@ node_modules/
 models/
 *.gguf
 .env
+scraper/chrome_data/
+scraper/cookies.json
